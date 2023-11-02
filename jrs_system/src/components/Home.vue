@@ -1,198 +1,181 @@
-<script>
-
+<script setup>
+import NavigationBar from './NavigationBar.vue'
+import FooterBar from './Footer.vue'
 </script>
+
 <template>
-    <div class="div">
-      <div class="div-2">
-        <div class="div-3">
-          <div class="div-4">
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/04efc03e-c207-4fb9-a95e-d43b34056103?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/04efc03e-c207-4fb9-a95e-d43b34056103?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/04efc03e-c207-4fb9-a95e-d43b34056103?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/04efc03e-c207-4fb9-a95e-d43b34056103?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/04efc03e-c207-4fb9-a95e-d43b34056103?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/04efc03e-c207-4fb9-a95e-d43b34056103?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/04efc03e-c207-4fb9-a95e-d43b34056103?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/04efc03e-c207-4fb9-a95e-d43b34056103?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-              class="img"
-            />
-            <div class="div-5">Home</div>
-            <div class="div-6">Shop</div>
-            <div class="div-7">Features</div>
-            <div class="div-8">Contact</div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/99fae563-ec73-4574-80f4-3b5c9c3a0ece?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-              class="img-2"
-            />
-            <div class="div-9"><div class="div-10">Login</div></div>
+  <div class="div">
+    <NavigationBar />
+    <div class="div-10">
+      <div class="div-11">
+        <div class="div-12">
+          <div class="div-13">
+            <div class="column">
+              <div class="div-14">
+                <div class="div-15">
+                  Discover and Elevate Your Beauty Essentials!
+                </div>
+                <div class="div-16">
+                  Explore our our handcrafted collection of luxurious beauty
+                  products and essentials designed to enhance your natural
+                  radiance.
+                </div>
+                <div class="button-shop" >
+<div class="shop-now" >
+SHOP NOW </div>
+</div>
+              </div>
+            </div>
+            <div class="column-2">
+              <img
+                loading="lazy"
+                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/205dddc7-d751-4b01-bcba-115941cb6ff9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/205dddc7-d751-4b01-bcba-115941cb6ff9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/205dddc7-d751-4b01-bcba-115941cb6ff9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/205dddc7-d751-4b01-bcba-115941cb6ff9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/205dddc7-d751-4b01-bcba-115941cb6ff9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/205dddc7-d751-4b01-bcba-115941cb6ff9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/205dddc7-d751-4b01-bcba-115941cb6ff9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/205dddc7-d751-4b01-bcba-115941cb6ff9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                class="img-3"
+              />
+            </div>
           </div>
         </div>
-        <div class="div-11">
-          <div class="div-12">
-            <div class="div-13">
-              <div class="column">
-                <div class="div-14">
-                  <div class="div-15">
-                    Discover and Elevate Your Beauty Essentials!
-                  </div>
-                  <div class="div-16">
-                    Explore our our handcrafted collection of luxurious beauty
-                    products and essentials designed to enhance your natural
-                    radiance.
-                  </div>
-                  <div class="div-17"><div class="div-18">SHOP NOW</div></div>
-                </div>
-              </div>
-              <div class="column-2">
+      </div>
+    </div>
+    <div class="div-19">
+      <div class="div-20">
+        <div class="div-21">Best selling</div>
+        <div class="div-22">
+          Discover the extraordinary with our meticulously crafted, organic soap
+           collection designed to pamper your skin and elevate your bathing
+          experience
+        </div>
+        <div class="div-23">
+          <div class="div-24">
+            <div class="column-3">
+              <div class="div-25">
                 <img
                   loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/53e14a90-fbbb-4e06-b1eb-cef6c2e191f5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/53e14a90-fbbb-4e06-b1eb-cef6c2e191f5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/53e14a90-fbbb-4e06-b1eb-cef6c2e191f5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/53e14a90-fbbb-4e06-b1eb-cef6c2e191f5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/53e14a90-fbbb-4e06-b1eb-cef6c2e191f5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/53e14a90-fbbb-4e06-b1eb-cef6c2e191f5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/53e14a90-fbbb-4e06-b1eb-cef6c2e191f5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/53e14a90-fbbb-4e06-b1eb-cef6c2e191f5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                  class="img-3"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-4"
                 />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="div-19">
-          <div class="div-20">
-            <div class="div-21">Best selling</div>
-            <div class="div-22">
-              Discover the extraordinary with our meticulously crafted, organic
-              soap collection designed to pamper your skin and elevate your
-              bathing experience
-            </div>
-            <div class="div-23">
-              <div class="div-24">
-                <div class="div-25">
-                  <div class="column-3">
-                    <div class="div-26">
-                      <img
-                        loading="lazy"
-                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e301eed8-1051-4966-9793-49e4a86fa73b?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e301eed8-1051-4966-9793-49e4a86fa73b?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e301eed8-1051-4966-9793-49e4a86fa73b?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e301eed8-1051-4966-9793-49e4a86fa73b?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e301eed8-1051-4966-9793-49e4a86fa73b?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e301eed8-1051-4966-9793-49e4a86fa73b?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e301eed8-1051-4966-9793-49e4a86fa73b?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e301eed8-1051-4966-9793-49e4a86fa73b?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                        class="img-4"
-                      />
-                    </div>
-                  </div>
-                  <div class="column-4">
+                <div class="div-26">
+                  <span
+                    style="
+                      font-family: Poppins, -apple-system, Roboto, Helvetica,
+                        sans-serif;
+                      font-weight: 600;
+                    "
+                    >Bleachpeel Soap </span
+                  ><span
+                    style="
+                      font-family: Poppins, -apple-system, Roboto, Helvetica,
+                        sans-serif;
+                      font-weight: 400;
+                    "
+                    >|</span
+                  ><span
+                    style="
+                      font-family: Poppins, -apple-system, Roboto, Helvetica,
+                        sans-serif;
+                      font-weight: 600;
+                    "
+                  >
+                    135g</span
+                  >
+                </div>
+                <div class="div-27">
+                  <div class="div-28">₱ 150.00</div>
+                  <div class="div-29"></div>
+                  <div class="div-30">
+                    <div class="div-31">5.0</div>
                     <img
                       loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0f1bd698-8f69-4874-9c4b-f0620839f0fb?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f1bd698-8f69-4874-9c4b-f0620839f0fb?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f1bd698-8f69-4874-9c4b-f0620839f0fb?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f1bd698-8f69-4874-9c4b-f0620839f0fb?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f1bd698-8f69-4874-9c4b-f0620839f0fb?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f1bd698-8f69-4874-9c4b-f0620839f0fb?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f1bd698-8f69-4874-9c4b-f0620839f0fb?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0f1bd698-8f69-4874-9c4b-f0620839f0fb?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/99d3dd4b-edc2-4587-b26c-77e1aa9900fd?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                       class="img-5"
                     />
                   </div>
-                  <div class="column-5">
+                </div>
+              </div>
+            </div>
+            <div class="column-4">
+              <div class="div-32">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-6"
+                />
+                <div class="div-33">
+                  <span
+                    style="
+                      font-family: Poppins, -apple-system, Roboto, Helvetica,
+                        sans-serif;
+                      font-weight: 600;
+                    "
+                    >15 in 1 Soap </span
+                  ><span
+                    style="
+                      font-family: Poppins, -apple-system, Roboto, Helvetica,
+                        sans-serif;
+                      font-weight: 400;
+                    "
+                    >| </span
+                  ><span
+                    style="
+                      font-family: Poppins, -apple-system, Roboto, Helvetica,
+                        sans-serif;
+                      font-weight: 600;
+                    "
+                    >135g</span
+                  >
+                </div>
+                <div class="div-34">
+                  <div class="div-35">₱ 110.00</div>
+                  <div class="div-36">
+                    <div class="div-37">4.9</div>
                     <img
                       loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/785a2b39-ad6e-4a60-9805-eb26832765d5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/785a2b39-ad6e-4a60-9805-eb26832765d5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/785a2b39-ad6e-4a60-9805-eb26832765d5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/785a2b39-ad6e-4a60-9805-eb26832765d5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/785a2b39-ad6e-4a60-9805-eb26832765d5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/785a2b39-ad6e-4a60-9805-eb26832765d5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/785a2b39-ad6e-4a60-9805-eb26832765d5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/785a2b39-ad6e-4a60-9805-eb26832765d5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-6"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/289468ab-bec4-4c81-9e5f-62f58a348999?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                      class="img-7"
                     />
                   </div>
                 </div>
               </div>
-              <div class="div-27">
-                <div class="div-28">
-                  <div class="div-29">
-                    <div class="div-30">
-                      <span
-                        style="
-                          font-family: Poppins, -apple-system, Roboto, Helvetica,
-                            sans-serif;
-                          font-weight: 600;
-                        "
-                        >Bleachpeel Soap </span
-                      ><span
-                        style="
-                          font-family: Poppins, -apple-system, Roboto, Helvetica,
-                            sans-serif;
-                          font-weight: 400;
-                        "
-                        >|</span
-                      ><span
-                        style="
-                          font-family: Poppins, -apple-system, Roboto, Helvetica,
-                            sans-serif;
-                          font-weight: 600;
-                        "
-                      >
-                        135g</span
-                      >
-                    </div>
-                    <div class="div-31">
-                      <span
-                        style="
-                          font-family: Poppins, -apple-system, Roboto, Helvetica,
-                            sans-serif;
-                          font-weight: 600;
-                        "
-                        >15 in 1 Soap</span
-                      ><span
-                        style="
-                          font-family: Poppins, -apple-system, Roboto, Helvetica,
-                            sans-serif;
-                          font-weight: 400;
-                        "
-                        >| </span
-                      ><span
-                        style="
-                          font-family: Poppins, -apple-system, Roboto, Helvetica,
-                            sans-serif;
-                          font-weight: 600;
-                        "
-                        >135g</span
-                      >
-                    </div>
-                  </div>
-                  <div class="div-32">
-                    <div class="div-33">
-                      <div class="div-34">₱ 150.00</div>
-                      <div class="div-35"></div>
-                      <div class="div-36">5.0</div>
-                      <img
-                        loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/8b58c028-2779-48b8-96b9-8b4840b81910?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                        class="img-7"
-                      />
-                    </div>
-                    <div class="div-37">
-                      <div class="div-38">₱ 110.00</div>
-                      <div class="div-39"></div>
-                      <div class="div-40">4.9</div>
-                      <img
-                        loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/89672182-cc0f-46ee-b3f4-267c37d9947d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                        class="img-8"
-                      />
-                    </div>
-                  </div>
+            </div>
+            <div class="column-5">
+              <div class="div-38">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-8"
+                />
+                <div class="div-39">
+                  <span
+                    style="
+                      font-family: Poppins, -apple-system, Roboto, Helvetica,
+                        sans-serif;
+                      font-weight: 600;
+                    "
+                    >Gluta Oatmeal with Shea Butter  and Avocado Oil </span
+                  ><span
+                    style="
+                      font-family: Poppins, -apple-system, Roboto, Helvetica,
+                        sans-serif;
+                      font-weight: 400;
+                    "
+                    >| </span
+                  ><span
+                    style="
+                      font-family: Poppins, -apple-system, Roboto, Helvetica,
+                        sans-serif;
+                      font-weight: 600;
+                    "
+                    >135g</span
+                  >
                 </div>
-                <div class="div-41">
-                  <div class="div-42">
-                    <span
-                      style="
-                        font-family: Poppins, -apple-system, Roboto, Helvetica,
-                          sans-serif;
-                        font-weight: 600;
-                      "
-                      >Gluta Oatmeal with Shea <br>Butter and Avocado Oil <br> </span
-                    ><span
-                      style="
-                        font-family: Poppins, -apple-system, Roboto, Helvetica,
-                          sans-serif;
-                        font-weight: 400;
-                      "
-                      >| </span
-                    ><span
-                      style="
-                        font-family: Poppins, -apple-system, Roboto, Helvetica,
-                          sans-serif;
-                        font-weight: 600;
-                      "
-                      >135g</span
-                    >
-                  </div>
+                <div class="div-40">
+                  <div class="div-41">₱ 100.00</div>
+                  <div class="div-42"></div>
                   <div class="div-43">
-                    <div class="div-44">₱ 100.00</div>
-                    <div class="div-45"></div>
-                    <div class="div-46">5.0</div>
+                    <div class="div-44">5.0</div>
                     <img
                       loading="lazy"
-                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/125dba8c-3d87-454a-ba3e-327a8cd6ec8f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/dcb5f990-7e3d-48cc-99ab-351a8593e0cf?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                       class="img-9"
                     />
                   </div>
@@ -200,106 +183,120 @@
               </div>
             </div>
           </div>
-          <div class="div-47">
-            <div class="div-48">
-              <div class="div-49">See all</div>
-              <img
-                loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/e1c99fdb-f863-46ce-970b-6cd0c7db5341?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                class="img-10"
-              />
-            </div>
+        </div>
+        <div class="div-45">
+          <div class="div-46">
+            <div class="div-47">See all</div>
+            <img
+              loading="lazy"
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/521cfbb9-a768-4793-a1ab-f06b11c6561e?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+              class="img-10"
+            />
           </div>
         </div>
-        <div class="div-50">
-          <div class="div-51">
-            <div class="div-52">Our products</div>
-            <div class="div-53">
-              <div class="div-54">Sale</div>
-              <div class="div-55">HOT</div>
-              <div class="div-56">New Arrivals</div>
-            </div>
-          </div>
-          <div class="div-57">
-            <div class="div-58">
-              <div class="div-59">
-                <div class="column-6">
+      </div>
+    </div>
+    <div class="div-48">
+      <div class="div-49">
+        <div class="div-50">Our products</div>
+        <div class="div-51">
+          <div class="div-52">Sale</div>
+          <div class="div-53">HOT</div>
+          <div class="div-54">New Arrivals</div>
+        </div>
+        <div class="div-55">
+          <div class="div-56">
+            <div class="column-6">
+              <div class="div-57">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-11"
+                />
+                <div class="div-58">
+                  <div class="div-59">Bleachpeel Soap</div>
                   <div class="div-60">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ebaad964-62c6-4642-a1ec-170147f1e006?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ebaad964-62c6-4642-a1ec-170147f1e006?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ebaad964-62c6-4642-a1ec-170147f1e006?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ebaad964-62c6-4642-a1ec-170147f1e006?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ebaad964-62c6-4642-a1ec-170147f1e006?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ebaad964-62c6-4642-a1ec-170147f1e006?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ebaad964-62c6-4642-a1ec-170147f1e006?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ebaad964-62c6-4642-a1ec-170147f1e006?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-11"
-                    />
-                    <div class="div-61">Bleachpeel Soap</div>
-                    <div class="div-62">
-                      <div class="div-63">₱ 150.00</div>
-                      <div class="div-64"></div>
-                      <div class="div-65">5.0</div>
+                    <div class="div-61">₱ 150.00</div>
+                    <div class="div-62"></div>
+                    <div class="div-63">
+                      <div class="div-64">5.0</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/95940c7f-de55-4530-bf1f-aed2f5666b2c?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/07820b60-ba71-4985-856c-b9231d8106ac?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-12"
                       />
                     </div>
                   </div>
                 </div>
-                <div class="column-7">
-                  <div class="div-66">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/db651b1e-f801-4396-8e9a-630f2b143e44?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/db651b1e-f801-4396-8e9a-630f2b143e44?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/db651b1e-f801-4396-8e9a-630f2b143e44?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/db651b1e-f801-4396-8e9a-630f2b143e44?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/db651b1e-f801-4396-8e9a-630f2b143e44?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/db651b1e-f801-4396-8e9a-630f2b143e44?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/db651b1e-f801-4396-8e9a-630f2b143e44?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/db651b1e-f801-4396-8e9a-630f2b143e44?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-13"
-                    />
-                    <div class="div-67">15 in 1 Soap</div>
-                    <div class="div-68">
-                      <div class="div-69">₱ 110.00</div>
-                      <div class="div-70"></div>
-                      <div class="div-71">4.9</div>
+              </div>
+            </div>
+            <div class="column-7">
+              <div class="div-65">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-13"
+                />
+                <div class="div-66">
+                  <div class="div-67">15 in 1 Soap</div>
+                  <div class="div-68">
+                    <div class="div-69">₱ 110.00</div>
+                    <div class="div-70"></div>
+                    <div class="div-71">
+                      <div class="div-72">4.9</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6c522d5f-088c-4342-a187-8d5df5d7eee7?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/bfb82cd7-3d3d-46ef-95e1-ac3e669ac7d3?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-14"
                       />
                     </div>
                   </div>
                 </div>
-                <div class="column-8">
-                  <div class="div-72">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/34f02e14-20c3-4342-a151-475546e0e493?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/34f02e14-20c3-4342-a151-475546e0e493?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/34f02e14-20c3-4342-a151-475546e0e493?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/34f02e14-20c3-4342-a151-475546e0e493?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/34f02e14-20c3-4342-a151-475546e0e493?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/34f02e14-20c3-4342-a151-475546e0e493?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/34f02e14-20c3-4342-a151-475546e0e493?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/34f02e14-20c3-4342-a151-475546e0e493?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-15"
-                    />
-                    <div class="div-73">
-                      Gluta Oatmeal with Shea <br />Butter & Avocado Oil<br />
-                    </div>
-                    <div class="div-74">
-                      <div class="div-75">₱ 100.00</div>
-                      <div class="div-76"></div>
-                      <div class="div-77">4.8</div>
+              </div>
+            </div>
+            <div class="column-8">
+              <div class="div-73">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-15"
+                />
+                <div class="div-74">
+                  <div class="div-75">
+                    Gluta Oatmeal with Shea <br />Butter & Avocado Oil
+                  </div>
+                  <div class="div-76">
+                    <div class="div-77">₱ 100.00</div>
+                    <div class="div-78"></div>
+                    <div class="div-79">
+                      <div class="div-80">4.8</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/e4992dc1-1318-4e41-aa63-6b4448a5f719?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6b13f139-2135-49e1-9677-dd95ee235bef?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-16"
                       />
                     </div>
                   </div>
                 </div>
-                <div class="column-9">
-                  <div class="div-78">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/43d73c47-760e-45ee-b0c2-63a34d46de25?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/43d73c47-760e-45ee-b0c2-63a34d46de25?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/43d73c47-760e-45ee-b0c2-63a34d46de25?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/43d73c47-760e-45ee-b0c2-63a34d46de25?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/43d73c47-760e-45ee-b0c2-63a34d46de25?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/43d73c47-760e-45ee-b0c2-63a34d46de25?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/43d73c47-760e-45ee-b0c2-63a34d46de25?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/43d73c47-760e-45ee-b0c2-63a34d46de25?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-17"
-                    />
-                    <div class="div-79">Glutamato with Grapeseed</div>
-                    <div class="div-80">
-                      <div class="div-81">₱ 80.00</div>
-                      <div class="div-82"></div>
-                      <div class="div-83">4.7</div>
+              </div>
+            </div>
+            <div class="column-9">
+              <div class="div-81">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-17"
+                />
+                <div class="div-82">
+                  <div class="div-83">Glutamato with Grapeseed</div>
+                  <div class="div-84">
+                    <div class="div-85">₱ 80.00</div>
+                    <div class="div-86"></div>
+                    <div class="div-87">
+                      <div class="div-88">4.7</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/9dec0c84-552f-4c4d-bf71-f65097fb5f9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/35b21952-10fb-4102-bf71-71704de22185?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-18"
                       />
                     </div>
@@ -307,83 +304,99 @@
                 </div>
               </div>
             </div>
-            <div class="div-84">
-              <div class="div-85">
-                <div class="column-10">
-                  <div class="div-86">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7e3cdaa2-32c2-44ae-ae60-e0cffa587c18?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7e3cdaa2-32c2-44ae-ae60-e0cffa587c18?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7e3cdaa2-32c2-44ae-ae60-e0cffa587c18?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7e3cdaa2-32c2-44ae-ae60-e0cffa587c18?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7e3cdaa2-32c2-44ae-ae60-e0cffa587c18?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7e3cdaa2-32c2-44ae-ae60-e0cffa587c18?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7e3cdaa2-32c2-44ae-ae60-e0cffa587c18?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7e3cdaa2-32c2-44ae-ae60-e0cffa587c18?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-19"
-                    />
-                    <div class="div-87">Gluta Oatmeal with Milk & Honey</div>
-                    <div class="div-88">
-                      <div class="div-89">₱ 100.00</div>
-                      <div class="div-90"></div>
-                      <div class="div-91">5.0</div>
+          </div>
+        </div>
+        <div class="div-89">
+          <div class="div-90">
+            <div class="column-10">
+              <div class="div-91">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-19"
+                />
+                <div class="div-92">
+                  <div class="div-93">Gluta Oatmeal with  Milk & Honey</div>
+                  <div class="div-94">
+                    <div class="div-95">₱ 100.00</div>
+                    <div class="div-96"></div>
+                    <div class="div-97">
+                      <div class="div-98">5.0</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2097514c-86e5-421d-877a-a46e58a1210a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/df486d4e-f425-4649-8f4c-e6aadcf7cadf?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-20"
                       />
                     </div>
                   </div>
                 </div>
-                <div class="column-11">
-                  <div class="div-92">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d3288302-e81e-420a-ab68-222792046c4f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d3288302-e81e-420a-ab68-222792046c4f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d3288302-e81e-420a-ab68-222792046c4f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d3288302-e81e-420a-ab68-222792046c4f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d3288302-e81e-420a-ab68-222792046c4f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d3288302-e81e-420a-ab68-222792046c4f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d3288302-e81e-420a-ab68-222792046c4f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d3288302-e81e-420a-ab68-222792046c4f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-21"
-                    />
-                    <div class="div-93">Glutamansi with Baking Soda</div>
-                    <div class="div-94">
-                      <div class="div-95">₱ 80.00</div>
-                      <div class="div-96"></div>
-                      <div class="div-97">4.7</div>
+              </div>
+            </div>
+            <div class="column-11">
+              <div class="div-99">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-21"
+                />
+                <div class="div-100">
+                  <div class="div-101">Glutamansi with Baking Soda</div>
+                  <div class="div-102">
+                    <div class="div-103">₱ 80.00</div>
+                    <div class="div-104"></div>
+                    <div class="div-105">
+                      <div class="div-106">4.7</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/aee4e25a-1902-44b3-b869-c8ce7788b7ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6ef0c26e-edf3-451a-8d35-93fd428eac71?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-22"
                       />
                     </div>
                   </div>
                 </div>
-                <div class="column-12">
-                  <div class="div-98">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f5e1c055-5214-40c2-a310-369041c32c85?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5e1c055-5214-40c2-a310-369041c32c85?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5e1c055-5214-40c2-a310-369041c32c85?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5e1c055-5214-40c2-a310-369041c32c85?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5e1c055-5214-40c2-a310-369041c32c85?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5e1c055-5214-40c2-a310-369041c32c85?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5e1c055-5214-40c2-a310-369041c32c85?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f5e1c055-5214-40c2-a310-369041c32c85?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-23"
-                    />
-                    <div class="div-99">Power Pink</div>
-                    <div class="div-100">
-                      <div class="div-101">₱ 110.00</div>
-                      <div class="div-102"></div>
-                      <div class="div-103">4.8</div>
+              </div>
+            </div>
+            <div class="column-12">
+              <div class="div-107">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-23"
+                />
+                <div class="div-108">
+                  <div class="div-109">Power Pink</div>
+                  <div class="div-110">
+                    <div class="div-111">₱ 110.00</div>
+                    <div class="div-112"></div>
+                    <div class="div-113">
+                      <div class="div-114">4.8</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/90ae5695-5880-4304-9994-09c4467d9d36?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/967e4af5-1ba3-49cb-932d-238675494987?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-24"
                       />
                     </div>
                   </div>
                 </div>
-                <div class="column-13">
-                  <div class="div-104">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/673caaec-aa79-4048-85e6-62c748ccbcde?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/673caaec-aa79-4048-85e6-62c748ccbcde?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/673caaec-aa79-4048-85e6-62c748ccbcde?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/673caaec-aa79-4048-85e6-62c748ccbcde?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/673caaec-aa79-4048-85e6-62c748ccbcde?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/673caaec-aa79-4048-85e6-62c748ccbcde?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/673caaec-aa79-4048-85e6-62c748ccbcde?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/673caaec-aa79-4048-85e6-62c748ccbcde?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-25"
-                    />
-                    <div class="div-105">Wonder Green</div>
-                    <div class="div-106">
-                      <div class="div-107">₱ 110.00</div>
-                      <div class="div-108"></div>
-                      <div class="div-109">4.8</div>
+              </div>
+            </div>
+            <div class="column-13">
+              <div class="div-115">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-25"
+                />
+                <div class="div-116">
+                  <div class="div-117">Wonder Green</div>
+                  <div class="div-118">
+                    <div class="div-119">₱ 110.00</div>
+                    <div class="div-120"></div>
+                    <div class="div-121">
+                      <div class="div-122">4.8</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/30011b8e-e7fb-4c6e-a7af-de7c7ffa48b1?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/4bab3b1e-0fbf-4bd3-a00d-1feab6c86262?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-26"
                       />
                     </div>
@@ -391,83 +404,99 @@
                 </div>
               </div>
             </div>
-            <div class="div-110">
-              <div class="div-111">
-                <div class="column-14">
-                  <div class="div-112">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/4986a64f-839c-4976-a656-0d5b87284cb6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4986a64f-839c-4976-a656-0d5b87284cb6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4986a64f-839c-4976-a656-0d5b87284cb6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4986a64f-839c-4976-a656-0d5b87284cb6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4986a64f-839c-4976-a656-0d5b87284cb6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4986a64f-839c-4976-a656-0d5b87284cb6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4986a64f-839c-4976-a656-0d5b87284cb6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4986a64f-839c-4976-a656-0d5b87284cb6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-27"
-                    />
-                    <div class="div-113">Fresh Snow Lotion Combo</div>
-                    <div class="div-114">
-                      <div class="div-115">₱ 125.00</div>
-                      <div class="div-116"></div>
-                      <div class="div-117">4.9</div>
+          </div>
+        </div>
+        <div class="div-123">
+          <div class="div-124">
+            <div class="column-14">
+              <div class="div-125">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-27"
+                />
+                <div class="div-126">
+                  <div class="div-127">Fresh Snow Lotion Combo</div>
+                  <div class="div-128">
+                    <div class="div-129">₱ 125.00</div>
+                    <div class="div-130"></div>
+                    <div class="div-131">
+                      <div class="div-132">4.9</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3a28f559-1f66-47f6-85c4-5c09fe683119?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1bb48e46-467f-47f3-ae11-e7ab79825cb5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-28"
                       />
                     </div>
                   </div>
                 </div>
-                <div class="column-15">
-                  <div class="div-118">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/fbfb0bff-4846-4ece-bb3f-911f46a049a5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/fbfb0bff-4846-4ece-bb3f-911f46a049a5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/fbfb0bff-4846-4ece-bb3f-911f46a049a5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/fbfb0bff-4846-4ece-bb3f-911f46a049a5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/fbfb0bff-4846-4ece-bb3f-911f46a049a5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/fbfb0bff-4846-4ece-bb3f-911f46a049a5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/fbfb0bff-4846-4ece-bb3f-911f46a049a5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/fbfb0bff-4846-4ece-bb3f-911f46a049a5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-29"
-                    />
-                    <div class="div-119">Body Scrubs<br /></div>
-                    <div class="div-120">
-                      <div class="div-121">₱ 210.00</div>
-                      <div class="div-122"></div>
-                      <div class="div-123">5.0</div>
+              </div>
+            </div>
+            <div class="column-15">
+              <div class="div-133">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-29"
+                />
+                <div class="div-134">
+                  <div class="div-135">Body Scrubs</div>
+                  <div class="div-136">
+                    <div class="div-137">₱ 210.00</div>
+                    <div class="div-138"></div>
+                    <div class="div-139">
+                      <div class="div-140">5.0</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/57e9f939-0bf5-41c3-8aeb-546bfccbfce4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/1507de5d-74b6-41ad-92c7-b1052b24e1c7?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-30"
                       />
                     </div>
                   </div>
                 </div>
-                <div class="column-16">
-                  <div class="div-124">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5a6e583f-1a68-4cc0-b09e-faaa96f86265?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5a6e583f-1a68-4cc0-b09e-faaa96f86265?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5a6e583f-1a68-4cc0-b09e-faaa96f86265?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5a6e583f-1a68-4cc0-b09e-faaa96f86265?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5a6e583f-1a68-4cc0-b09e-faaa96f86265?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5a6e583f-1a68-4cc0-b09e-faaa96f86265?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5a6e583f-1a68-4cc0-b09e-faaa96f86265?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5a6e583f-1a68-4cc0-b09e-faaa96f86265?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-31"
-                    />
-                    <div class="div-125">Blacked Soap</div>
-                    <div class="div-126">
-                      <div class="div-127">₱ 130.00</div>
-                      <div class="div-128"></div>
-                      <div class="div-129">5.0</div>
+              </div>
+            </div>
+            <div class="column-16">
+              <div class="div-141">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-31"
+                />
+                <div class="div-142">
+                  <div class="div-143">Blacked Soap</div>
+                  <div class="div-144">
+                    <div class="div-145">₱ 130.00</div>
+                    <div class="div-146"></div>
+                    <div class="div-147">
+                      <div class="div-148">5.0</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/2d42e3dc-57a7-4623-a2ac-96b819df2f6c?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/d80cc552-4c86-48a1-80b6-c1a395933d92?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-32"
                       />
                     </div>
                   </div>
                 </div>
-                <div class="column-17">
-                  <div class="div-130">
-                    <img
-                      loading="lazy"
-                      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0fe3747c-3685-42d6-90e8-6d8b1eee6f00?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0fe3747c-3685-42d6-90e8-6d8b1eee6f00?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0fe3747c-3685-42d6-90e8-6d8b1eee6f00?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0fe3747c-3685-42d6-90e8-6d8b1eee6f00?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0fe3747c-3685-42d6-90e8-6d8b1eee6f00?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0fe3747c-3685-42d6-90e8-6d8b1eee6f00?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0fe3747c-3685-42d6-90e8-6d8b1eee6f00?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0fe3747c-3685-42d6-90e8-6d8b1eee6f00?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                      class="img-33"
-                    />
-                    <div class="div-131">Madre de Cacao</div>
-                    <div class="div-132">
-                      <div class="div-133">₱ 20.00</div>
-                      <div class="div-134"></div>
-                      <div class="div-135">5.0</div>
+              </div>
+            </div>
+            <div class="column-17">
+              <div class="div-149">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img-33"
+                />
+                <div class="div-150">
+                  <div class="div-151">Madre de Cacao</div>
+                  <div class="div-152">
+                    <div class="div-153">₱ 20.00</div>
+                    <div class="div-154"></div>
+                    <div class="div-155">
+                      <div class="div-156">5.0</div>
                       <img
                         loading="lazy"
-                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/b307cc8c-6729-4da6-86e5-afe6f7a0a416?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/09a8bd6c-a77b-404b-8889-46ed1f306eb9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                         class="img-34"
                       />
                     </div>
@@ -477,167 +506,116 @@
             </div>
           </div>
         </div>
-        <div class="div-136">
-          <div class="div-137">
-            <div class="div-138">
-              <div class="div-139">
-                <div class="column-18">
-                  <img
-                    loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/70bd35b2-134c-4b1b-bd81-e9b04889041a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/70bd35b2-134c-4b1b-bd81-e9b04889041a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/70bd35b2-134c-4b1b-bd81-e9b04889041a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/70bd35b2-134c-4b1b-bd81-e9b04889041a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/70bd35b2-134c-4b1b-bd81-e9b04889041a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/70bd35b2-134c-4b1b-bd81-e9b04889041a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/70bd35b2-134c-4b1b-bd81-e9b04889041a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/70bd35b2-134c-4b1b-bd81-e9b04889041a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                    class="img-35"
-                  />
-                </div>
-                <div class="column-19">
-                  <div class="div-140">
-                    <div class="div-141">Exclusive offer</div>
-                    <div class="div-142">
-                      Unlock the ultimate style upgrade with our exclusive offer
-                      Enjoy savings of up to 40% off on our latest New Arrivals
-                    </div>
-                    <div class="div-143">
-                      <div class="div-144">
-                        <div class="div-145">06</div>
-                        <div class="div-146">Days</div>
-                      </div>
-                      <div class="div-147">
-                        <div class="div-148">18</div>
-                        <div class="div-149">Hours</div>
-                      </div>
-                      <div class="div-150">
-                        <div class="div-151">48</div>
-                        <div class="div-152">Min</div>
-                      </div>
-                    </div>
-                    <div class="div-153"><div class="div-154">BUY NOW</div></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="div-155">Feedback Corner</div>
       </div>
-      <div class="div-156">
-        <div class="div-157">
-          <div class="div-158">
-            <div class="column-20">
-              <div class="div-159">
-                <div class="div-160">“</div>
-                <div class="div-161">Emily Wilson</div>
-                <div class="div-162">
-                  The customer experience was exceptional from start to finish.
-                  The website is user-friendly, the checkout process was smooth,
-                  and the clothes I ordered fit perfectly. I'm beyond satisfied!
-                </div>
-              </div>
+    </div>
+    <div class="div-157">
+      <div class="div-158">
+        <div class="div-159">
+          <div class="div-160">
+            <div class="column-18">
+              <img
+                loading="lazy"
+                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/13ef613a-4893-4efa-84d8-503167aa365e?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/13ef613a-4893-4efa-84d8-503167aa365e?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/13ef613a-4893-4efa-84d8-503167aa365e?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/13ef613a-4893-4efa-84d8-503167aa365e?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/13ef613a-4893-4efa-84d8-503167aa365e?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/13ef613a-4893-4efa-84d8-503167aa365e?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/13ef613a-4893-4efa-84d8-503167aa365e?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/13ef613a-4893-4efa-84d8-503167aa365e?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                class="img-35"
+              />
             </div>
-            <div class="column-21">
-              <div class="div-163">
-                <div class="div-164">“</div>
-                <div class="div-165">Sarah Thompson</div>
-                <div class="div-166">
-                  I absolutely love the quality and style of the clothing I
-                  purchased from this website. customer service was outstanding,
-                  and I received my order quickly. Highly recommended!
+            <div class="column-19">
+              <div class="div-161">
+                <div class="div-162">Exclusive offer</div>
+                <div class="div-163">
+                  Unlock the ultimate style upgrade with our exclusive offer
+                  Enjoy savings of up to 40% off on our latest New Arrivals
                 </div>
-              </div>
-            </div>
-            <div class="column-22">
-              <div class="div-167">
-                <div class="div-168">“</div>
-                <div class="div-169">Olivia Martinez</div>
-                <div class="div-170">
-                  I had a great experience shopping on this website. The clothes I
-                  bought are fashionable and comfortable. Highly satisfied!
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="div-171">
-          <img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/45025048-f1dc-4224-996a-53351d9c8f9b?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-            class="img-36"
-          /><img
-            loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/27269c00-a1cc-473f-a099-2d7512399678?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-            class="img-37"
-          />
-        </div>
-        <div class="div-172">
-          <div class="div-173">
-            <div class="div-174">
-              <div class="div-175">
-                <img
-                  loading="lazy"
-                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/13f14852-70cf-46b4-91a3-a05540b2b683?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/13f14852-70cf-46b4-91a3-a05540b2b683?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/13f14852-70cf-46b4-91a3-a05540b2b683?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/13f14852-70cf-46b4-91a3-a05540b2b683?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/13f14852-70cf-46b4-91a3-a05540b2b683?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/13f14852-70cf-46b4-91a3-a05540b2b683?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/13f14852-70cf-46b4-91a3-a05540b2b683?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/13f14852-70cf-46b4-91a3-a05540b2b683?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                  class="img-38"
-                />
-                <div class="div-176">Social Media</div>
-                <div class="div-177">
-                  <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/72671182-0fa4-47c3-966b-41cf717fb452?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                    class="img-39"
-                  /><img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/ba9c9dda-c466-4ca4-bd10-34946b1373d4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                    class="img-40"
-                  /><img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/042aed71-f3c5-44b8-8537-286157a8a9a1?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                    class="img-41"
-                  />
-                </div>
-              </div>
-              <div class="div-178">
-                <div class="div-179">
-                  <div class="column-23">
-                    <div class="div-180">
-                      <div class="div-181">SHOP</div>
-                      <div class="div-182">Products</div>
-                      <div class="div-183">Overview</div>
-                      <div class="div-184">Pricing</div>
-                      <div class="div-185">Releases</div>
-                    </div>
+                <div class="div-164">
+                  <div class="div-165">
+                    <div class="div-166">06</div>
+                    <div class="div-167">Days</div>
                   </div>
-                  <div class="column-24">
-                    <div class="div-186">
-                      <div class="div-187">Company</div>
-                      <div class="div-188">About us</div>
-                      <div class="div-189">Contact</div>
-                      <div class="div-190">News</div>
-                      <div class="div-191">Support</div>
-                    </div>
+                  <div class="div-168">
+                    <div class="div-169">18</div>
+                    <div class="div-170">Hours</div>
                   </div>
-                  <div class="column-25">
-                    <div class="div-192">
-                      <div class="div-193">Stay up to date</div>
-                      <div class="div-194">Enter your email</div>
-                      <div class="div-195">Submit</div>
-                    </div>
+                  <div class="div-171">
+                    <div class="div-172">48</div>
+                    <div class="div-173">Min</div>
                   </div>
                 </div>
+                <div class="div-174"><div class="div-175">BUY NOW</div></div>
               </div>
             </div>
-          </div>
-          <div class="div-196">
-            <div class="div-197"></div>
-            <div class="div-198">Terms</div>
-            <div class="div-199">Privacy</div>
-            <div class="div-200">Cookies</div>
           </div>
         </div>
       </div>
     </div>
-  </template>
-  
-  
-  
-  <style scoped>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap');
+    <div class="div-176">
+      <div class="div-177">Feedback Corner</div>
+      <div class="div-178">
+        <div class="div-179">
+          <div class="column-20">
+            <div class="div-180">
+              <div class="div-181">
+                <div class="div-182">“</div>
+                <div class="div-183">Emily Wilson</div>
+              </div>
+              <div class="div-184">
+                The customer experience was exceptional from start to finish.
+                The website is user-friendly, the checkout process was smooth,
+                and the clothes I ordered fit perfectly. I'm beyond satisfied!
+              </div>
+            </div>
+          </div>
+          <div class="column-21">
+            <div class="div-185">
+              <div class="div-186">
+                <div class="div-187">“</div>
+                <div class="div-188">Sarah Thompson</div>
+              </div>
+              <div class="div-189">
+                I absolutely love the quality and style of the clothing I
+                purchased from this website. customer service was outstanding,
+                and I received my order quickly. Highly recommended!
+              </div>
+            </div>
+          </div>
+          <div class="column-22">
+            <div class="div-190">
+              <div class="div-191">
+                <div class="div-192">“</div>
+                <div class="div-193">Olivia Martinez</div>
+              </div>
+              <div class="div-194">
+                I had a great experience shopping on this website. The clothes I
+                bought are fashionable and comfortable. Highly satisfied!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="div-195">
+        <div class="div-196">
+          <img
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/42a9ace4-ce56-47e5-9d24-5c85ff5ad093?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/42a9ace4-ce56-47e5-9d24-5c85ff5ad093?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/42a9ace4-ce56-47e5-9d24-5c85ff5ad093?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/42a9ace4-ce56-47e5-9d24-5c85ff5ad093?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/42a9ace4-ce56-47e5-9d24-5c85ff5ad093?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/42a9ace4-ce56-47e5-9d24-5c85ff5ad093?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/42a9ace4-ce56-47e5-9d24-5c85ff5ad093?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/42a9ace4-ce56-47e5-9d24-5c85ff5ad093?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+            class="img-36"
+          />
+        </div>
+        <div class="div-197">
+          <img
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/2aeff2c8-7e22-4d03-b050-a6cedd7f4605?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/2aeff2c8-7e22-4d03-b050-a6cedd7f4605?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2aeff2c8-7e22-4d03-b050-a6cedd7f4605?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/2aeff2c8-7e22-4d03-b050-a6cedd7f4605?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/2aeff2c8-7e22-4d03-b050-a6cedd7f4605?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2aeff2c8-7e22-4d03-b050-a6cedd7f4605?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/2aeff2c8-7e22-4d03-b050-a6cedd7f4605?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/2aeff2c8-7e22-4d03-b050-a6cedd7f4605?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+            class="img-37"
+          />
+        </div>
+      </div>
+    </div>
+    <FooterBar/>
+  </div>
+</template>
+
+
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arial+Rounded+MT+Bold:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
@@ -647,2839 +625,2457 @@ body {
   	margin: 0; 
     line-height: normal;
 }
-  .div {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-  }
-  .div-2 {
-    align-self: stretch;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    /* padding: 0 20px; */
-  }
-  @media (max-width: 991px) {
-    .div-2 {
-      max-width: 100%;
-    }
-  }
-  .div-3 {
-    justify-content: flex-end;
-    align-items: center;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    background-color: #c2efd4;
-    align-self: stretch;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    padding: 38px 20px;
-  }
-  @media (max-width: 991px) {
-    .div-3 {
-      max-width: 100%;
-    }
-  }
-  .div-4 {
-    align-items: flex-start;
-    align-self: center;
-    display: flex;
-    width: 100%;
-    max-width: 1382px;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  @media (max-width: 991px) {
-    .div-4 {
-      max-width: 100%;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  }
-  .img {
-    aspect-ratio: 1.31;
-    object-fit: cover;
-    object-position: center;
-    width: 241px;
-    overflow: hidden;
-    align-self: stretch;
-    max-width: 100%;
-  }
-  .div-5 {
-    color: #224f34;
-    text-transform: uppercase;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-6 {
-    color: #224f34;
-    text-transform: uppercase;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-7 {
-    color: #224f34;
-    text-transform: uppercase;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-8 {
-    color: #224f34;
-    text-transform: uppercase;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-2 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 32px;
-    overflow: hidden;
-    align-self: center;
-    max-width: 100%;
-    margin: auto 0;
-  }
-  .div-9 {
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    border: 2px solid #224f34;
-    align-self: center;
-    display: flex;
-    width: 142px;
-    max-width: 100%;
-    flex-direction: column;
-    margin: auto 0;
-    padding: 11px 20px;
-  }
+.div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.div-10 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-10 {
-    color: #224f34;
-    text-transform: uppercase;
-    align-self: center;
-    text-wrap: nowrap;
-    font: 500 20px Poppins, sans-serif;
+    max-width: 100%;
   }
-  @media (max-width: 991px) {
-    .div-10 {
-      text-wrap: initial;
-    }
-  }
+}
+.div-11 {
+  background: linear-gradient(
+    180deg,
+    #c2efd4 0%,
+    rgba(255, 255, 255, 0) 87.34%
+  );
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 68px 20px 125px;
+}
+@media (max-width: 991px) {
   .div-11 {
-    background: linear-gradient(180deg, #c2efd4 0%, rgba(194, 239, 212, 0) 100%);
-    align-self: stretch;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    padding: 117px 20px 136px;
+    max-width: 100%;
   }
-  @media (max-width: 991px) {
-    .div-11 {
-      max-width: 100%;
-    }
-  }
+}
+.div-12 {
+  align-self: center;
+  margin-bottom: -25px;
+  width: 100%;
+  max-width: 1456px;
+}
+@media (max-width: 991px) {
   .div-12 {
-    align-self: center;
-    margin-bottom: -27px;
-    width: 100%;
-    max-width: 1379px;
+    max-width: 100%;
+    margin-bottom: 10px;
   }
-  @media (max-width: 991px) {
-    .div-12 {
-      max-width: 100%;
-      margin-bottom: 10px;
-    }
-  }
+}
+.div-13 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
   .div-13 {
-    gap: 20px;
-    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
   }
-  @media (max-width: 991px) {
-    .div-13 {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 58%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
   .column {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 55%;
-    margin-left: 0px;
+    width: 100%;
   }
-  @media (max-width: 991px) {
-    .column {
-      width: 100%;
-    }
-  }
+}
+.div-14 {
+  align-items: flex-start;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-14 {
-    display: flex;
-    margin-top: 15px;
-    flex-grow: 1;
-    flex-direction: column;
+    max-width: 100%;
+    margin-top: 40px;
   }
-  @media (max-width: 991px) {
-    .div-14 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
+}
+.div-15 {
+  color: #224f34;
+  font: 700 86px Rufina, sans-serif;
+}
+@media (max-width: 991px) {
   .div-15 {
-    color: #224f34;
-    align-self: start;
-    width: 649px;
     max-width: 100%;
-    font: 700 86px Rufina, sans-serif;
+    font-size: 40px;
   }
-  @media (max-width: 991px) {
-    .div-15 {
-      font-size: 40px;
-    }
-  }
+}
+.div-16 {
+  color: #267d49;
+  margin-top: 31px;
+  font: 500 24px/220% Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-16 {
-    color: #267d49;
-    margin-top: 23px;
-    font: 500 24px/220% Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-16 {
-      max-width: 100%;
-    }
-  }
-  .div-17 {
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    box-shadow: 6px 33px 59px 0px rgba(0, 0, 0, 0.3);
-    background-color: #224f34;
-    align-self: start;
-    display: flex;
-    margin-top: 61px;
-    width: 253px;
     max-width: 100%;
-    flex-grow: 1;
-    flex-direction: column;
-    padding: 20px;
   }
-  @media (max-width: 991px) {
-    .div-17 {
-      margin-top: 40px;
-    }
-  }
-  .div-18 {
-    color: #fff;
-    text-transform: uppercase;
-    align-self: center;
-    text-wrap: nowrap;
-    font: 500 25px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-18 {
-      text-wrap: initial;
-    }
-  }
+}
+
+.button-shop, .button-shop * {
+box-sizing: border-box;
+}
+.button-shop {
+background: #224f34;
+border-radius: 3px;
+padding: 20px 58px 20px 58px;
+display: flex;
+flex-direction: row;
+gap: 10px;
+align-items: center;
+justify-content: center;
+position: relative;
+box-shadow: 6px 33px 59px 0px rgba(0, 0, 0, 0.30);
+overflow: hidden;
+}
+.shop-now {
+color: #ffffff;
+text-align: left;
+font: 500 25px 'Poppins', sans-serif;
+text-transform: uppercase;
+position: relative;
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 42%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
   .column-2 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 45%;
-    margin-left: 20px;
+    width: 100%;
   }
-  @media (max-width: 991px) {
-    .column-2 {
-      width: 100%;
-    }
-  }
+}
+.img-3 {
+  aspect-ratio: 0.79;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  align-items: flex-start;
+  overflow: hidden;
+  margin-top: 6px;
+  flex-grow: 1;
+}
+@media (max-width: 991px) {
   .img-3 {
-    aspect-ratio: 0.79;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    box-shadow: 6px 4px 26px 0px rgba(0, 0, 0, 0.12) inset;
-    overflow: hidden;
-    flex: 1;
+    max-width: 100%;
+    margin-top: 40px;
   }
-  @media (max-width: 991px) {
-    .img-3 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
+}
+.div-19 {
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 61px 20px;
+}
+@media (max-width: 991px) {
   .div-19 {
-    background-color: #fff;
-    align-self: stretch;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    padding: 77px 20px;
+    max-width: 100%;
   }
-  @media (max-width: 991px) {
-    .div-19 {
-      max-width: 100%;
-    }
-  }
+}
+.div-20 {
+  align-self: center;
+  display: flex;
+  width: 100%;
+  max-width: 1448px;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-20 {
-    align-self: center;
-    display: flex;
-    width: 100%;
-    max-width: 1378px;
-    flex-direction: column;
+    max-width: 100%;
   }
-  @media (max-width: 991px) {
-    .div-20 {
-      max-width: 100%;
-    }
-  }
+}
+.div-21 {
+  color: #224f34;
+  align-self: center;
+  white-space: nowrap;
+  font: 500 64px Roboto Slab, sans-serif;
+}
+@media (max-width: 991px) {
   .div-21 {
-    color: #224f34;
-    align-self: center;
-    text-wrap: nowrap;
-    font: 500 64px Roboto Slab, sans-serif;
+    font-size: 40px;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-21 {
-      font-size: 40px;
-      text-wrap: initial;
-    }
-  }
+}
+.div-22 {
+  color: #224f34;
+  text-align: center;
+  max-width: 860px;
+  align-self: center;
+  margin-top: 77px;
+  font: 500 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-22 {
-    color: #224f34;
-    text-align: center;
-    max-width: 860px;
-    align-self: center;
-    margin: 36px 0 0 33px;
-    font: 500 22px Poppins, sans-serif;
+    max-width: 100%;
+    margin-top: 40px;
   }
-  @media (max-width: 991px) {
-    .div-22 {
-      max-width: 100%;
-    }
-  }
+}
+.div-23 {
+  justify-content: center;
+  align-self: stretch;
+  margin-top: 77px;
+}
+@media (max-width: 991px) {
   .div-23 {
-    align-items: center;
-    align-self: stretch;
-    display: flex;
-    margin-top: 75px;
-    flex-grow: 1;
-    flex-direction: column;
-    padding: 2px 0;
+    max-width: 100%;
+    margin-top: 40px;
   }
-  @media (max-width: 991px) {
-    .div-23 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
+}
+.div-24 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
   .div-24 {
-    align-self: stretch;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
   }
-  @media (max-width: 991px) {
-    .div-24 {
-      max-width: 100%;
-    }
-  }
-  .div-25 {
-    gap: 20px;
-    display: flex;
-  }
-  @media (max-width: 991px) {
-    .div-25 {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  }
+}
+.column-3 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
   .column-3 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 33%;
-    margin-left: 0px;
-  }
-  @media (max-width: 991px) {
-    .column-3 {
-      width: 100%;
-    }
-  }
-  .div-26 {
-    border-radius: 3px;
-    background-color: #93b9a2;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
     width: 100%;
-    margin: 0 auto;
   }
-  @media (max-width: 991px) {
-    .div-26 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
+}
+.div-25 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
+  .div-25 {
+    max-width: 100%;
+    margin-top: 40px;
   }
+}
+.img-4 {
+  aspect-ratio: 0.95;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+@media (max-width: 991px) {
   .img-4 {
-    aspect-ratio: 0.95;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    align-self: stretch;
-    flex-grow: 1;
+    max-width: 100%;
   }
-  @media (max-width: 991px) {
-    .img-4 {
-      max-width: 100%;
-    }
+}
+.div-26 {
+  color: #373737;
+  text-align: center;
+  align-self: center;
+  margin-top: 8px;
+  white-space: nowrap;
+  font: 400 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-26 {
+    white-space: initial;
   }
-  .column-4 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 33%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-4 {
-      width: 100%;
-    }
-  }
-  .img-5 {
-    aspect-ratio: 0.95;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    fill: #a9d4ba;
-    overflow: hidden;
-    flex-grow: 1;
-  }
-  @media (max-width: 991px) {
-    .img-5 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
-  .column-5 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 33%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-5 {
-      width: 100%;
-    }
-  }
-  .img-6 {
-    aspect-ratio: 0.95;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    flex-grow: 1;
-  }
-  @media (max-width: 991px) {
-    .img-6 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
+}
+.div-27 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 8px;
+  width: 223px;
+  max-width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-27 {
-    align-items: flex-start;
-    align-self: center;
-    display: flex;
-    margin-top: 33px;
+    justify-content: center;
+  }
+}
+.div-28 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-29 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-30 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 9px;
+}
+.div-31 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-5 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-4 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-4 {
     width: 100%;
-    max-width: 1262px;
-    justify-content: space-between;
-    gap: 20px;
   }
-  @media (max-width: 991px) {
-    .div-27 {
-      max-width: 100%;
-      flex-wrap: wrap;
-    }
-  }
-  .div-28 {
-    align-self: start;
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-28 {
-      max-width: 100%;
-    }
-  }
-  .div-29 {
-    align-self: start;
-    display: flex;
-    width: 666px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  @media (max-width: 991px) {
-    .div-29 {
-      flex-wrap: wrap;
-    }
-  }
-  .div-30 {
-    color: #373737;
-    text-align: center;
-    max-width: 274px;
-    align-self: stretch;
-    flex-grow: 1;
-    flex-basis: auto;
-    font: 400 22px Poppins, sans-serif;
-  }
-  .div-31 {
-    color: #373737;
-    text-align: center;
-    align-self: stretch;
-    text-wrap: nowrap;
-    font: 400 22px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-31 {
-      text-wrap: initial;
-    }
-  }
+}
+.div-32 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
   .div-32 {
-    align-self: end;
-    display: flex;
-    margin-top: 11px;
-    width: 661px;
     max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 20px;
+    margin-top: 40px;
   }
-  @media (max-width: 991px) {
-    .div-32 {
-      flex-wrap: wrap;
-    }
+}
+.img-6 {
+  aspect-ratio: 0.95;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+@media (max-width: 991px) {
+  .img-6 {
+    max-width: 100%;
   }
+}
+.div-33 {
+  color: #373737;
+  text-align: center;
+  align-self: center;
+  margin-top: 8px;
+  white-space: nowrap;
+  font: 400 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-33 {
-    align-self: start;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 13px;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-33 {
-      justify-content: center;
-    }
+}
+.div-34 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 8px;
+  width: 211px;
+  max-width: 100%;
+  gap: 20px;
+}
+.div-35 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-36 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 9px;
+}
+.div-37 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-7 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-5 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-5 {
+    width: 100%;
   }
-  .div-34 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-35 {
-    background-color: #454545;
-    align-self: start;
-    width: 1px;
-    height: 27px;
-  }
-  .div-36 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-7 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: start;
-    margin-top: 5px;
-    max-width: 100%;
-  }
-  .div-37 {
-    align-self: start;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 12px;
-  }
-  @media (max-width: 991px) {
-    .div-37 {
-      justify-content: center;
-    }
-  }
+}
+.div-38 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-38 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
+    max-width: 100%;
+    margin-top: 40px;
   }
-  .div-39 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
-  .div-40 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
+}
+.img-8 {
+  aspect-ratio: 0.95;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+@media (max-width: 991px) {
   .img-8 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: center;
     max-width: 100%;
-    margin: auto 0;
   }
-  .div-41 {
-    align-self: start;
-    display: flex;
-    flex-direction: column;
+}
+.div-39 {
+  color: #373737;
+  text-align: center;
+  max-width: 358px;
+  align-self: center;
+  margin-top: 7px;
+  font: 400 22px Poppins, sans-serif;
+}
+.div-40 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 7px;
+  width: 203px;
+  max-width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .div-40 {
+    justify-content: center;
   }
-  .div-42 {
-    color: #373737;
-    text-align: center;
-    align-self: stretch;
-    font: 400 22px Poppins, sans-serif;
-  }
-  .div-43 {
-    align-self: center;
-    display: flex;
-    width: 203px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 13px;
-    margin: 10px 0 0 15px;
-  }
-  @media (max-width: 991px) {
-    .div-43 {
-      justify-content: center;
-    }
-  }
-  .div-44 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
+}
+.div-41 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-42 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-43 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 9px;
+}
+.div-44 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-9 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.div-45 {
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 2px solid #224f34;
+  align-self: center;
+  display: flex;
+  margin-top: 77px;
+  width: 228px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 16px 20px;
+}
+@media (max-width: 991px) {
   .div-45 {
-    background-color: #454545;
-    align-self: start;
-    width: 1px;
-    height: 27px;
+    margin-top: 40px;
   }
-  .div-46 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-9 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: start;
-    margin-top: 5px;
-    max-width: 100%;
-  }
-  .div-47 {
-    align-items: flex-start;
-    border-radius: 3px;
-    border: 2px solid #224f34;
-    align-self: center;
-    display: flex;
-    margin-top: 132px;
-    width: 224px;
-    max-width: 100%;
-    flex-direction: column;
-    padding: 25px 20px;
-  }
-  @media (max-width: 991px) {
-    .div-47 {
-      margin-top: 40px;
-    }
-  }
+}
+.div-46 {
+  justify-content: center;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  width: 118px;
+  max-width: 100%;
+  padding-right: 1px;
+  gap: 18px;
+}
+.div-47 {
+  color: #224f34;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-10 {
+  aspect-ratio: 1.53;
+  object-fit: contain;
+  object-position: center;
+  width: 23px;
+  stroke-width: 2px;
+  stroke: #224f34;
+  overflow: hidden;
+  align-self: center;
+  max-width: 100%;
+  margin: auto 0;
+}
+.div-48 {
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 35px 20px;
+}
+@media (max-width: 991px) {
   .div-48 {
-    align-self: center;
-    display: flex;
-    width: 115px;
     max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 20px;
   }
+}
+.div-49 {
+  align-self: center;
+  display: flex;
+  width: 100%;
+  max-width: 1505px;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-49 {
-    color: #224f34;
-    align-self: start;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-10 {
-    aspect-ratio: 1.71;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    stroke-width: 2px;
-    stroke: #224f34;
-    overflow: hidden;
-    align-self: start;
     max-width: 100%;
   }
+}
+.div-50 {
+  color: #224f34;
+  align-self: center;
+  white-space: nowrap;
+  font: 500 50px Roboto Slab, sans-serif;
+}
+@media (max-width: 991px) {
   .div-50 {
-    background-color: #fff;
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    padding: 36px 20px 30px;
+    font-size: 40px;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-50 {
-      max-width: 100%;
-      margin-right: 2px;
-    }
-  }
+}
+.div-51 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 71px;
+  width: 575px;
+  max-width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-51 {
-    align-self: center;
-    display: flex;
-    margin-left: 64px;
-    width: 572px;
-    max-width: 100%;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
   }
-  .div-52 {
-    color: #224f34;
-    align-self: center;
-    margin-left: -64px;
-    text-wrap: nowrap;
-    font: 500 50px Roboto Slab, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-52 {
-      font-size: 40px;
-      text-wrap: initial;
-    }
-  }
-  .div-53 {
-    align-items: flex-start;
-    align-self: stretch;
-    display: flex;
-    margin-top: 74px;
-    width: 100%;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  @media (max-width: 991px) {
-    .div-53 {
-      max-width: 100%;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 40px;
-    }
-  }
+}
+.div-52 {
+  color: #454545;
+  text-transform: uppercase;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-53 {
+  color: #224f34;
+  text-transform: uppercase;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-54 {
+  color: #454545;
+  text-transform: uppercase;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 500 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-54 {
-    color: #454545;
-    text-transform: uppercase;
-    align-self: stretch;
-    font: 500 22px Poppins, sans-serif;
+    white-space: initial;
   }
+}
+.div-55 {
+  justify-content: center;
+  align-self: stretch;
+  margin-top: 71px;
+}
+@media (max-width: 991px) {
   .div-55 {
-    color: #224f34;
-    text-transform: uppercase;
-    align-self: stretch;
-    font: 500 22px Poppins, sans-serif;
+    max-width: 100%;
+    margin-top: 40px;
   }
+}
+.div-56 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
   .div-56 {
-    color: #454545;
-    text-transform: uppercase;
-    align-self: stretch;
-    text-wrap: nowrap;
-    font: 500 22px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-56 {
-      text-wrap: initial;
-    }
-  }
-  .div-57 {
-    align-self: center;
-    display: flex;
-    margin-top: 83px;
-    width: 100%;
-    max-width: 1502px;
     flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
   }
-  @media (max-width: 991px) {
-    .div-57 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
-  .div-58 {
-    align-self: stretch;
-    padding: 2px 0;
-  }
-  @media (max-width: 991px) {
-    .div-58 {
-      max-width: 100%;
-    }
-  }
-  .div-59 {
-    gap: 20px;
-    display: flex;
-  }
-  @media (max-width: 991px) {
-    .div-59 {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  }
+}
+.column-6 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
   .column-6 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 0px;
+    width: 100%;
   }
-  @media (max-width: 991px) {
-    .column-6 {
-      width: 100%;
-    }
+}
+.div-57 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-57 {
+    margin-top: 37px;
   }
+}
+.img-11 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-58 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 217px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-59 {
+  color: #373737;
+  text-align: center;
+  align-self: center;
+  white-space: nowrap;
+  font: 600 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-59 {
+    white-space: initial;
+  }
+}
+.div-60 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-60 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
   }
-  @media (max-width: 991px) {
-    .div-60 {
-      margin-top: 34px;
-    }
-  }
-  .img-11 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    align-self: stretch;
-  }
-  .div-61 {
-    color: #373737;
-    text-align: center;
-    align-self: center;
-    margin-top: 41px;
-    text-wrap: nowrap;
-    font: 600 22px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-61 {
-      margin-top: 40px;
-      text-wrap: initial;
-    }
-  }
-  .div-62 {
-    align-self: center;
-    display: flex;
-    margin-top: 14px;
-    width: 217px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 13px;
-  }
-  @media (max-width: 991px) {
-    .div-62 {
-      justify-content: center;
-    }
-  }
-  .div-63 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-64 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
-  .div-65 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-12 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: center;
-    max-width: 100%;
-    margin: auto 0;
-  }
+}
+.div-61 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-62 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-63 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-64 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-12 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-7 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
   .column-7 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-7 {
-      width: 100%;
-    }
-  }
-  .div-66 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-66 {
-      margin-top: 34px;
-    }
-  }
-  .img-13 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
     width: 100%;
-    overflow: hidden;
-    align-self: stretch;
   }
+}
+.div-65 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-65 {
+    margin-top: 36px;
+  }
+}
+.img-13 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-66 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 211px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-67 {
+  color: #373737;
+  text-align: center;
+  align-self: center;
+  white-space: nowrap;
+  font: 600 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-67 {
-    color: #373737;
-    text-align: center;
-    align-self: center;
-    margin-top: 40px;
-    text-wrap: nowrap;
-    font: 600 22px Poppins, sans-serif;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-67 {
-      text-wrap: initial;
-    }
-  }
+}
+.div-68 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-68 {
-    align-self: center;
-    display: flex;
-    margin-top: 14px;
-    width: 212px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 12px;
+    justify-content: center;
   }
-  @media (max-width: 991px) {
-    .div-68 {
-      justify-content: center;
-    }
-  }
-  .div-69 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-70 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
-  .div-71 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-14 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: center;
-    max-width: 100%;
-    margin: auto 0;
-  }
+}
+.div-69 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-70 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-71 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-72 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-14 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-8 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
   .column-8 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-8 {
-      width: 100%;
-    }
-  }
-  .div-72 {
-    align-items: center;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-72 {
-      margin-top: 34px;
-    }
-  }
-  .img-15 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
     width: 100%;
-    overflow: hidden;
-    align-self: stretch;
   }
+}
+.div-73 {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-73 {
-    color: #373737;
-    text-align: center;
-    max-width: 285px;
-    align-self: center;
-    margin-top: 41px;
-    font: 600 22px Poppins, sans-serif;
+    margin-top: 35px;
   }
-  @media (max-width: 991px) {
-    .div-73 {
-      margin-top: 40px;
-    }
-  }
-  .div-74 {
-    align-self: center;
-    display: flex;
-    width: 217px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 12px;
-    margin: 20px 0 0 -10px;
-  }
-  @media (max-width: 991px) {
-    .div-74 {
-      justify-content: center;
-    }
-  }
-  .div-75 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
+}
+.img-15 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-74 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 285px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-75 {
+  color: #373737;
+  text-align: center;
+  align-self: stretch;
+  font: 600 22px Poppins, sans-serif;
+}
+.div-76 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 8px;
+  width: 217px;
+  max-width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-76 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
+    justify-content: center;
   }
-  .div-77 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-16 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: center;
-    max-width: 100%;
-    margin: auto 0;
-  }
+}
+.div-77 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-78 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-79 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-80 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-16 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-9 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
   .column-9 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-9 {
-      width: 100%;
-    }
-  }
-  .div-78 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-78 {
-      margin-top: 34px;
-    }
-  }
-  .img-17 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
     width: 100%;
-    overflow: hidden;
-    align-self: stretch;
   }
-  .div-79 {
-    color: #373737;
-    text-align: center;
-    align-self: center;
-    margin-top: 37px;
-    text-wrap: nowrap;
-    font: 600 22px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-79 {
-      text-wrap: initial;
-    }
-  }
-  .div-80 {
-    align-self: center;
-    display: flex;
-    margin-top: 14px;
-    width: 209px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 13px;
-  }
-  @media (max-width: 991px) {
-    .div-80 {
-      justify-content: center;
-    }
-  }
+}
+.div-81 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-81 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
+    margin-top: 36px;
   }
-  .div-82 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
+}
+.img-17 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-82 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 303px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-83 {
+  color: #373737;
+  text-align: center;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 600 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-83 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
+    white-space: initial;
   }
-  .img-18 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: center;
-    max-width: 100%;
-    margin: auto 0;
-  }
+}
+.div-84 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 8px;
+  width: 207px;
+  max-width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-84 {
-    align-self: stretch;
-    margin-top: 51px;
-    padding: 2px 0;
+    justify-content: center;
   }
-  @media (max-width: 991px) {
-    .div-84 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
-  .div-85 {
-    gap: 20px;
-    display: flex;
-  }
-  @media (max-width: 991px) {
-    .div-85 {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  }
-  .column-10 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 0px;
-  }
-  @media (max-width: 991px) {
-    .column-10 {
-      width: 100%;
-    }
-  }
-  .div-86 {
-    align-items: center;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-86 {
-      margin-top: 34px;
-    }
-  }
-  .img-19 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    align-self: stretch;
-  }
-  .div-87 {
-    color: #373737;
-    text-align: center;
-    margin-top: 46px;
-    font: 600 22px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-87 {
-      margin-top: 40px;
-    }
-  }
-  .div-88 {
-    align-self: center;
-    display: flex;
-    margin-top: 14px;
-    width: 229px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 13px;
-  }
-  @media (max-width: 991px) {
-    .div-88 {
-      justify-content: center;
-    }
-  }
+}
+.div-85 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-86 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-87 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-88 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-18 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.div-89 {
+  justify-content: center;
+  align-self: stretch;
+  margin-top: 71px;
+}
+@media (max-width: 991px) {
   .div-89 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-90 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
-  .div-91 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-20 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: center;
     max-width: 100%;
-    margin: auto 0;
-  }
-  .column-11 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-11 {
-      width: 100%;
-    }
-  }
-  .div-92 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-92 {
-      margin-top: 34px;
-    }
-  }
-  .img-21 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    align-self: stretch;
-  }
-  .div-93 {
-    color: #373737;
-    text-align: center;
-    align-self: center;
-    margin-top: 43px;
-    text-wrap: nowrap;
-    font: 600 22px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-93 {
-      margin-top: 40px;
-      text-wrap: initial;
-    }
-  }
-  .div-94 {
-    align-self: center;
-    display: flex;
-    margin-top: 14px;
-    width: 215px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 13px;
-  }
-  @media (max-width: 991px) {
-    .div-94 {
-      justify-content: center;
-    }
-  }
-  .div-95 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-96 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
-  .div-97 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-22 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: center;
-    max-width: 100%;
-    margin: auto 0;
-  }
-  .column-12 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-12 {
-      width: 100%;
-    }
-  }
-  .div-98 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-98 {
-      margin-top: 34px;
-    }
-  }
-  .img-23 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    align-self: stretch;
-  }
-  .div-99 {
-    color: #373737;
-    text-align: center;
-    align-self: center;
-    text-wrap: nowrap;
-    margin: 37px 0 0 12px;
-    font: 600 22px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-99 {
-      text-wrap: initial;
-    }
-  }
-  .div-100 {
-    align-self: center;
-    display: flex;
-    margin-top: 20px;
-    width: 208px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 12px;
-  }
-  @media (max-width: 991px) {
-    .div-100 {
-      justify-content: center;
-    }
-  }
-  .div-101 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-102 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
-  .div-103 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-24 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: start;
-    max-width: 100%;
-  }
-  .column-13 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-13 {
-      width: 100%;
-    }
-  }
-  .div-104 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-104 {
-      margin-top: 34px;
-    }
-  }
-  .img-25 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    align-self: stretch;
-  }
-  .div-105 {
-    color: #373737;
-    text-align: center;
-    align-self: center;
-    margin-top: 41px;
-    text-wrap: nowrap;
-    font: 600 22px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-105 {
-      margin-top: 40px;
-      text-wrap: initial;
-    }
-  }
-  .div-106 {
-    align-self: center;
-    display: flex;
-    margin-top: 20px;
-    width: 208px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 12px;
-  }
-  @media (max-width: 991px) {
-    .div-106 {
-      justify-content: center;
-    }
-  }
-  .div-107 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-108 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
-  .div-109 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-26 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: start;
-    max-width: 100%;
-  }
-  .div-110 {
-    align-self: stretch;
-    margin-top: 79px;
-    padding: 2px 0;
-  }
-  @media (max-width: 991px) {
-    .div-110 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
-  .div-111 {
-    gap: 20px;
-    display: flex;
-  }
-  @media (max-width: 991px) {
-    .div-111 {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  }
-  .column-14 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 0px;
-  }
-  @media (max-width: 991px) {
-    .column-14 {
-      width: 100%;
-    }
-  }
-  .div-112 {
-    align-items: center;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-112 {
-      margin-top: 34px;
-    }
-  }
-  .img-27 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    align-self: stretch;
-  }
-  .div-113 {
-    color: #373737;
-    text-align: center;
-    align-self: center;
     margin-top: 40px;
-    text-wrap: nowrap;
-    font: 600 22px Poppins, sans-serif;
   }
-  @media (max-width: 991px) {
-    .div-113 {
-      text-wrap: initial;
-    }
+}
+.div-90 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
+  .div-90 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
   }
-  .div-114 {
-    align-self: center;
-    display: flex;
-    width: 208px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 12px;
-    margin: 20px 0 0 -10px;
+}
+.column-10 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .column-10 {
+    width: 100%;
   }
-  @media (max-width: 991px) {
-    .div-114 {
-      justify-content: center;
-    }
+}
+.div-91 {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-91 {
+    margin-top: 35px;
   }
+}
+.img-19 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-92 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 223px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-93 {
+  color: #373737;
+  text-align: center;
+  font: 600 22px Poppins, sans-serif;
+}
+.div-94 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .div-94 {
+    justify-content: center;
+  }
+}
+.div-95 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-96 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-97 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-98 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-20 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-11 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-11 {
+    width: 100%;
+  }
+}
+.div-99 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-99 {
+    margin-top: 36px;
+  }
+}
+.img-21 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-100 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 330px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-101 {
+  color: #373737;
+  text-align: center;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 600 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-101 {
+    white-space: initial;
+  }
+}
+.div-102 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 8px;
+  width: 207px;
+  max-width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .div-102 {
+    justify-content: center;
+  }
+}
+.div-103 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-104 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-105 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-106 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-22 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-12 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-12 {
+    width: 100%;
+  }
+}
+.div-107 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .div-107 {
+    margin-top: 36px;
+  }
+}
+.img-23 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-108 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 211px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-109 {
+  color: #373737;
+  text-align: center;
+  align-self: center;
+  white-space: nowrap;
+  font: 600 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-109 {
+    white-space: initial;
+  }
+}
+.div-110 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .div-110 {
+    justify-content: center;
+  }
+}
+.div-111 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-112 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-113 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-114 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-24 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-13 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-13 {
+    width: 100%;
+  }
+}
+.div-115 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-115 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
+    margin-top: 38px;
   }
-  .div-116 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
+}
+.img-25 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-116 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 211px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-117 {
+  color: #373737;
+  text-align: center;
+  align-self: center;
+  white-space: nowrap;
+  font: 600 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-117 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
+    white-space: initial;
   }
-  .img-28 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: start;
-    max-width: 100%;
-  }
-  .column-15 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-15 {
-      width: 100%;
-    }
-  }
+}
+.div-118 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-118 {
-    align-items: center;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
+    justify-content: center;
   }
-  @media (max-width: 991px) {
-    .div-118 {
-      margin-top: 34px;
-    }
-  }
-  .img-29 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    align-self: stretch;
-  }
-  .div-119 {
-    color: #373737;
-    text-align: center;
-    align-self: center;
-    margin-top: 41px;
-    text-wrap: nowrap;
-    font: 600 22px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-119 {
-      margin-top: 40px;
-      text-wrap: initial;
-    }
-  }
-  .div-120 {
-    align-self: center;
-    display: flex;
-    margin-top: 14px;
-    width: 208px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 13px;
-  }
-  @media (max-width: 991px) {
-    .div-120 {
-      justify-content: center;
-    }
-  }
-  .div-121 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .div-122 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
+}
+.div-119 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-120 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-121 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-122 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-26 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.div-123 {
+  justify-content: center;
+  align-self: stretch;
+  margin-top: 71px;
+}
+@media (max-width: 991px) {
   .div-123 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-30 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: start;
     max-width: 100%;
+    margin-top: 40px;
   }
-  .column-16 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-16 {
-      width: 100%;
-    }
-  }
+}
+.div-124 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
   .div-124 {
-    align-items: center;
-    display: flex;
     flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
   }
-  @media (max-width: 991px) {
-    .div-124 {
-      margin-top: 36px;
-    }
-  }
-  .img-31 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
+}
+.column-14 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .column-14 {
     width: 100%;
-    overflow: hidden;
-    align-self: stretch;
   }
+}
+.div-125 {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-125 {
-    color: #373737;
-    text-align: center;
-    align-self: center;
-    margin-top: 37px;
-    text-wrap: nowrap;
-    font: 600 22px Poppins, sans-serif;
+    margin-top: 35px;
   }
-  @media (max-width: 991px) {
-    .div-125 {
-      text-wrap: initial;
-    }
-  }
-  .div-126 {
-    align-self: center;
-    display: flex;
-    margin-top: 15px;
-    width: 208px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 13px;
-  }
-  @media (max-width: 991px) {
-    .div-126 {
-      justify-content: center;
-    }
-  }
+}
+.img-27 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-126 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 288px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-127 {
+  color: #373737;
+  text-align: center;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 600 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-127 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
+    white-space: initial;
   }
+}
+.div-128 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 8px;
+  width: 216px;
+  max-width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-128 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
+    justify-content: center;
   }
-  .div-129 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
-  }
-  .img-32 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: start;
-    max-width: 100%;
-  }
-  .column-17 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 25%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-17 {
-      width: 100%;
-    }
-  }
-  .div-130 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-130 {
-      margin-top: 36px;
-    }
-  }
-  .img-33 {
-    aspect-ratio: 0.93;
-    object-fit: cover;
-    object-position: center;
+}
+.div-129 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-130 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-131 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-132 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-28 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-15 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-15 {
     width: 100%;
-    overflow: hidden;
-    align-self: stretch;
   }
-  .div-131 {
-    color: #373737;
-    text-align: center;
-    align-self: center;
-    margin-top: 37px;
-    text-wrap: nowrap;
-    font: 600 22px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-131 {
-      text-wrap: initial;
-    }
-  }
-  .div-132 {
-    align-self: center;
-    display: flex;
-    margin-top: 20px;
-    width: 200px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 13px;
-  }
-  @media (max-width: 991px) {
-    .div-132 {
-      justify-content: center;
-    }
-  }
+}
+.div-133 {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-133 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
+    margin-top: 35px;
   }
-  .div-134 {
-    background-color: #454545;
-    align-self: stretch;
-    width: 1px;
-    height: 27px;
-  }
+}
+.img-29 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-134 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 216px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-135 {
+  color: #373737;
+  text-align: center;
+  align-self: center;
+  white-space: nowrap;
+  font: 600 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-135 {
-    color: #454545;
-    align-self: center;
-    margin: auto 0;
-    font: 500 22px Poppins, sans-serif;
+    white-space: initial;
   }
-  .img-34 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 24px;
-    overflow: hidden;
-    align-self: start;
-    max-width: 100%;
-  }
+}
+.div-136 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-136 {
-    align-items: flex-start;
-    align-self: center;
-    display: flex;
-    margin-top: 92px;
+    justify-content: center;
+  }
+}
+.div-137 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-138 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-139 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-140 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-30 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-16 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-16 {
     width: 100%;
-    max-width: 1377px;
-    flex-direction: column;
   }
-  @media (max-width: 991px) {
-    .div-136 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
-  .div-137 {
-    border-radius: 3px;
-    background-color: #c2efd4;
-    align-self: stretch;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    padding: 30px 20px;
-  }
-  @media (max-width: 991px) {
-    .div-137 {
-      max-width: 100%;
-    }
-  }
-  .div-138 {
-    align-self: center;
-    width: 100%;
-    max-width: 1215px;
-  }
-  @media (max-width: 991px) {
-    .div-138 {
-      max-width: 100%;
-    }
-  }
-  .div-139 {
-    gap: 20px;
-    display: flex;
-  }
-  @media (max-width: 991px) {
-    .div-139 {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  }
-  .column-18 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 47%;
-    margin-left: 0px;
-  }
-  @media (max-width: 991px) {
-    .column-18 {
-      width: 100%;
-    }
-  }
-  .img-35 {
-    aspect-ratio: 0.97;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    box-shadow: 6px 4px 26px 0px rgba(0, 0, 0, 0.12) inset;
-    overflow: hidden;
-    flex-grow: 1;
-  }
-  @media (max-width: 991px) {
-    .img-35 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
-  .column-19 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 53%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-19 {
-      width: 100%;
-    }
-  }
-  .div-140 {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    margin: auto 0;
-  }
-  @media (max-width: 991px) {
-    .div-140 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
+}
+.div-141 {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-141 {
-    color: #224f34;
-    align-self: start;
-    text-wrap: nowrap;
-    font: 700 46px Roboto Slab, sans-serif;
+    margin-top: 35px;
   }
-  @media (max-width: 991px) {
-    .div-141 {
-      font-size: 40px;
-      text-wrap: initial;
-    }
-  }
-  .div-142 {
-    color: #224f34;
-    margin-top: 32px;
-    font: 500 22px/167% Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-142 {
-      max-width: 100%;
-    }
-  }
+}
+.img-31 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-142 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 216px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-143 {
+  color: #373737;
+  text-align: center;
+  align-self: center;
+  white-space: nowrap;
+  font: 600 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-143 {
-    align-items: flex-start;
-    align-self: start;
-    display: flex;
-    margin-top: 32px;
-    width: 371px;
-    max-width: 100%;
-    justify-content: space-between;
-    gap: 20px;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-143 {
-      justify-content: center;
-    }
-  }
+}
+.div-144 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-144 {
-    align-items: flex-start;
-    border-radius: 3px;
-    box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 16px 20px;
+    justify-content: center;
   }
-  .div-145 {
-    color: #224f34;
-    align-self: center;
-    text-wrap: nowrap;
-    font: 600 32px Poppins, sans-serif;
+}
+.div-145 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-146 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-147 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-148 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-32 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.column-17 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 25%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-17 {
+    width: 100%;
   }
-  @media (max-width: 991px) {
-    .div-145 {
-      text-wrap: initial;
-    }
-  }
-  .div-146 {
-    color: #224f34;
-    align-self: center;
-    text-wrap: nowrap;
-    font: 500 16px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-146 {
-      text-wrap: initial;
-    }
-  }
-  .div-147 {
-    align-items: center;
-    border-radius: 3px;
-    box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 16px 20px;
-  }
-  .div-148 {
-    color: #224f34;
-    align-self: center;
-    text-wrap: nowrap;
-    font: 600 32px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-148 {
-      text-wrap: initial;
-    }
-  }
+}
+.div-149 {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-149 {
-    color: #224f34;
-    align-self: center;
-    text-wrap: nowrap;
-    font: 500 16px Poppins, sans-serif;
+    margin-top: 35px;
   }
-  @media (max-width: 991px) {
-    .div-149 {
-      text-wrap: initial;
-    }
-  }
-  .div-150 {
-    align-items: center;
-    border-radius: 3px;
-    box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 16px 20px;
-  }
+}
+.img-33 {
+  aspect-ratio: 0.93;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+}
+.div-150 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 33px;
+  width: 208px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.div-151 {
+  color: #373737;
+  text-align: center;
+  align-self: center;
+  white-space: nowrap;
+  font: 600 22px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-151 {
-    color: #224f34;
-    align-self: center;
-    text-wrap: nowrap;
-    font: 600 32px Poppins, sans-serif;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-151 {
-      text-wrap: initial;
-    }
-  }
+}
+.div-152 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  margin-top: 8px;
+  width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-152 {
-    color: #224f34;
-    align-self: center;
-    text-wrap: nowrap;
-    font: 500 16px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-152 {
-      text-wrap: initial;
-    }
-  }
-  .div-153 {
     justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
-    background-color: #224f34;
-    align-self: start;
-    display: flex;
-    margin-top: 32px;
-    width: 235px;
-    max-width: 100%;
-    flex-grow: 1;
-    flex-direction: column;
-    padding: 22px 20px;
   }
-  .div-154 {
-    color: #fff;
-    text-transform: uppercase;
-    align-self: center;
-    text-wrap: nowrap;
-    font: 500 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-154 {
-      text-wrap: initial;
-    }
-  }
-  .div-155 {
-    color: #224f34;
-    align-self: center;
-    text-wrap: nowrap;
-    margin: 106px 0 0 -18px;
-    font: 500 50px Roboto Slab, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-155 {
-      font-size: 40px;
-      margin-top: 40px;
-      text-wrap: initial;
-    }
-  }
-  .div-156 {
-    align-self: stretch;
-    display: flex;
-    margin-top: 122px;
-    width: 100%;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-156 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
+}
+.div-153 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.div-154 {
+  background-color: #454545;
+  align-self: center;
+  width: 1px;
+  height: 27px;
+  margin: auto 0;
+}
+.div-155 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.div-156 {
+  color: #454545;
+  align-self: stretch;
+  font: 500 22px Poppins, sans-serif;
+}
+.img-34 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex: 1;
+  margin: auto 0;
+}
+.div-157 {
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 132px;
+  width: 100%;
+  max-width: 1377px;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
   .div-157 {
-    align-self: center;
-    width: 100%;
-    max-width: 1377px;
-    padding: 0 20px;
+    max-width: 100%;
+    margin-top: 40px;
   }
-  @media (max-width: 991px) {
-    .div-157 {
-      max-width: 100%;
-    }
-  }
+}
+.div-158 {
+  border-radius: 50px;
+  background-color: var(--jrs, #c2efd4);
+  align-self: stretch;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+@media (max-width: 991px) {
   .div-158 {
-    gap: 20px;
-    display: flex;
+    max-width: 100%;
   }
-  @media (max-width: 991px) {
-    .div-158 {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  }
-  .column-20 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 33%;
-    margin-left: 0px;
-  }
-  @media (max-width: 991px) {
-    .column-20 {
-      width: 100%;
-    }
-  }
+}
+.div-159 {
+  align-self: center;
+  width: 100%;
+  max-width: 1142px;
+}
+@media (max-width: 991px) {
   .div-159 {
-    border-radius: 3px;
-    box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
-    background-color: #fff;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 20px 31px 19px;
+    max-width: 100%;
   }
-  @media (max-width: 991px) {
-    .div-159 {
-      max-width: 100%;
-      margin-top: 37px;
-    }
-  }
+}
+.div-160 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
   .div-160 {
-    color: #224f34;
-    align-self: start;
-    text-wrap: nowrap;
-    font: 400 60px Arial Rounded MT Bold, -apple-system, Roboto, Helvetica,
-      sans-serif;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
   }
-  @media (max-width: 991px) {
-    .div-160 {
-      font-size: 40px;
-      text-wrap: initial;
-    }
+}
+.column-18 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 43%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .column-18 {
+    width: 100%;
   }
+}
+.img-35 {
+  aspect-ratio: 0.81;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  flex-grow: 1;
+}
+@media (max-width: 991px) {
+  .img-35 {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+.column-19 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 57%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-19 {
+    width: 100%;
+  }
+}
+.div-161 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+@media (max-width: 991px) {
   .div-161 {
-    color: #224f34;
-    align-self: start;
-    margin-top: 39px;
-    text-wrap: nowrap;
-    font: 600 22px Roboto Serif, sans-serif;
+    max-width: 100%;
+    margin-top: 40px;
   }
-  @media (max-width: 991px) {
-    .div-161 {
-      text-wrap: initial;
-    }
-  }
+}
+.div-162 {
+  color: #224f34;
+  align-self: start;
+  white-space: nowrap;
+  font: 700 46px Roboto Slab, sans-serif;
+}
+@media (max-width: 991px) {
   .div-162 {
-    color: #6f6f6f;
-    margin-top: 36px;
-    font: 500 16px Poppins, sans-serif;
+    max-width: 100%;
+    font-size: 40px;
+    white-space: initial;
   }
-  .column-21 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 33%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-21 {
-      width: 100%;
-    }
-  }
+}
+.div-163 {
+  color: #224f34;
+  margin-top: 32px;
+  font: 500 22px/167% Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-163 {
-    border-radius: 3px;
-    box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
-    background-color: #c2efd4;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 17px 31px 16px;
+    max-width: 100%;
   }
-  @media (max-width: 991px) {
-    .div-163 {
-      max-width: 100%;
-      margin-top: 37px;
-    }
-  }
+}
+.div-164 {
+  align-items: flex-start;
+  align-self: start;
+  display: flex;
+  margin-top: 32px;
+  width: 371px;
+  max-width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 991px) {
   .div-164 {
-    color: #224f34;
-    align-self: start;
-    text-wrap: nowrap;
-    font: 400 60px Arial Rounded MT Bold, -apple-system, Roboto, Helvetica,
-      sans-serif;
+    justify-content: center;
   }
-  @media (max-width: 991px) {
-    .div-164 {
-      font-size: 40px;
-      text-wrap: initial;
-    }
-  }
-  .div-165 {
-    color: #224f34;
-    align-self: start;
-    margin-top: 39px;
-    text-wrap: nowrap;
-    font: 600 22px Roboto Serif, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-165 {
-      text-wrap: initial;
-    }
-  }
+}
+.div-165 {
+  align-items: flex-start;
+  border-radius: 3px;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px 20px;
+}
+.div-166 {
+  color: #224f34;
+  align-self: center;
+  white-space: nowrap;
+  font: 600 32px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-166 {
-    color: #224f34;
-    margin-top: 36px;
-    font: 500 16px Poppins, sans-serif;
+    white-space: initial;
   }
-  .column-22 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 33%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-22 {
-      width: 100%;
-    }
-  }
+}
+.div-167 {
+  color: #224f34;
+  align-self: center;
+  white-space: nowrap;
+  font: 500 16px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-167 {
-    border-radius: 3px;
-    box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
-    background-color: #fff;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 20px 55px 19px;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-167 {
-      max-width: 100%;
-      margin-top: 37px;
-    }
-  }
-  .div-168 {
-    color: #224f34;
-    align-self: start;
-    text-wrap: nowrap;
-    font: 400 60px Arial Rounded MT Bold, -apple-system, Roboto, Helvetica,
-      sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-168 {
-      font-size: 40px;
-      text-wrap: initial;
-    }
-  }
+}
+.div-168 {
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px 20px;
+}
+.div-169 {
+  color: #224f34;
+  align-self: center;
+  white-space: nowrap;
+  font: 600 32px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-169 {
-    color: #224f34;
-    align-self: start;
-    margin-top: 43px;
-    text-wrap: nowrap;
-    font: 600 22px Roboto Serif, sans-serif;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-169 {
-      margin-top: 40px;
-      text-wrap: initial;
-    }
-  }
+}
+.div-170 {
+  color: #224f34;
+  align-self: center;
+  white-space: nowrap;
+  font: 500 16px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-170 {
-    color: #6f6f6f;
-    margin-top: 37px;
-    font: 500 16px Poppins, sans-serif;
+    white-space: initial;
   }
-  .div-171 {
-    align-self: center;
-    display: flex;
-    width: 131px;
-    max-width: 100%;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 20px;
-    margin: 73px 0 0 -17px;
-    padding: 0 20px;
-  }
-  @media (max-width: 991px) {
-    .div-171 {
-      margin-top: 40px;
-    }
-  }
-  .img-36 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    filter: drop-shadow(0px 7px 51px rgba(0, 0, 0, 0.1));
-    overflow: hidden;
-    flex: 1;
-  }
-  .img-37 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    filter: drop-shadow(0px 7px 51px rgba(0, 0, 0, 0.1));
-    overflow: hidden;
-    flex: 1;
-  }
+}
+.div-171 {
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 16px 20px;
+}
+.div-172 {
+  color: #224f34;
+  align-self: center;
+  white-space: nowrap;
+  font: 600 32px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-172 {
-    background-color: #224f34;
-    align-self: stretch;
-    display: flex;
-    margin-top: 71px;
-    width: 100%;
-    flex-direction: column;
-    padding: 95px 20px 85px;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-172 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
+}
+.div-173 {
+  color: #224f34;
+  align-self: center;
+  white-space: nowrap;
+  font: 500 16px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-173 {
-    align-items: flex-start;
-    align-self: center;
-    display: flex;
-    width: 100%;
-    max-width: 1550px;
-    padding-right: 20px;
-    flex-direction: column;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-173 {
-      max-width: 100%;
-    }
-  }
-  .div-174 {
-    align-self: center;
-    display: flex;
-    width: 100%;
-    max-width: 1442px;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  @media (max-width: 991px) {
-    .div-174 {
-      max-width: 100%;
-      flex-wrap: wrap;
-    }
-  }
+}
+.div-174 {
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  background-color: #224f34;
+  align-self: start;
+  display: flex;
+  margin-top: 32px;
+  width: 235px;
+  max-width: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 22px 20px;
+}
+.div-175 {
+  color: #fff;
+  text-transform: uppercase;
+  align-self: center;
+  white-space: nowrap;
+  font: 500 20px Poppins, sans-serif;
+}
+@media (max-width: 991px) {
   .div-175 {
-    align-items: flex-start;
-    align-self: start;
-    display: flex;
-    flex-direction: column;
+    white-space: initial;
   }
-  .img-38 {
-    aspect-ratio: 1.33;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    align-self: start;
-  }
+}
+.div-176 {
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-top: 170px;
+  width: 100%;
+  max-width: 1370px;
+  flex-direction: column;
+  padding: 0 20px;
+}
+@media (max-width: 991px) {
   .div-176 {
-    color: #fff;
-    text-transform: capitalize;
-    align-self: start;
-    margin-top: 38px;
-    text-wrap: nowrap;
-    font: 500 22px Roboto Slab, sans-serif;
+    max-width: 100%;
+    margin-top: 40px;
   }
-  @media (max-width: 991px) {
-    .div-176 {
-      text-wrap: initial;
-    }
-  }
+}
+.div-177 {
+  color: #224f34;
+  align-self: center;
+  white-space: nowrap;
+  font: 500 50px Roboto Slab, sans-serif;
+}
+@media (max-width: 991px) {
   .div-177 {
-    align-items: flex-start;
-    align-self: start;
-    display: flex;
-    margin-top: 38px;
-    width: 183px;
-    max-width: 100%;
-    justify-content: space-between;
-    gap: 20px;
+    font-size: 40px;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-177 {
-      justify-content: center;
-    }
-  }
-  .img-39 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    flex: 1;
-  }
-  .img-40 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    flex: 1;
-    margin: auto 0;
-  }
-  .img-41 {
-    aspect-ratio: 1;
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    overflow: hidden;
-    flex: 1;
-  }
+}
+.div-178 {
+  justify-content: center;
+  align-self: stretch;
+  margin: 91px -20px 0 0;
+}
+@media (max-width: 991px) {
   .div-178 {
-    align-self: start;
-    flex-grow: 1;
-    flex-basis: auto;
+    max-width: 100%;
+    margin-top: 40px;
   }
-  @media (max-width: 991px) {
-    .div-178 {
-      max-width: 100%;
-    }
-  }
+}
+.div-179 {
+  gap: 20px;
+  display: flex;
+}
+@media (max-width: 991px) {
   .div-179 {
-    gap: 20px;
-    display: flex;
-  }
-  @media (max-width: 991px) {
-    .div-179 {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 0px;
-    }
-  }
-  .column-23 {
-    display: flex;
     flex-direction: column;
-    line-height: normal;
-    width: 17%;
-    margin-left: 0px;
+    align-items: stretch;
+    gap: 0px;
   }
-  @media (max-width: 991px) {
-    .column-23 {
-      width: 100%;
-    }
-  }
-  .div-180 {
-    align-items: flex-start;
-    display: flex;
-    margin-top: 10px;
-    flex-grow: 1;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-180 {
-      margin-top: 40px;
-    }
-  }
-  .div-181 {
-    color: #fff;
-    text-transform: uppercase;
-    align-self: start;
-    text-wrap: nowrap;
-    font: 500 22px Roboto Slab, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-181 {
-      text-wrap: initial;
-    }
-  }
-  .div-182 {
-    color: #c2efd4;
-    text-transform: capitalize;
-    align-self: start;
-    margin-top: 20px;
-    text-wrap: nowrap;
-    font: 500 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-182 {
-      text-wrap: initial;
-    }
-  }
-  .div-183 {
-    color: #c2efd4;
-    text-transform: capitalize;
-    align-self: start;
-    margin-top: 20px;
-    text-wrap: nowrap;
-    font: 500 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-183 {
-      text-wrap: initial;
-    }
-  }
-  .div-184 {
-    color: #c2efd4;
-    text-transform: capitalize;
-    align-self: start;
-    margin-top: 20px;
-    text-wrap: nowrap;
-    font: 500 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-184 {
-      text-wrap: initial;
-    }
-  }
-  .div-185 {
-    color: #c2efd4;
-    text-transform: capitalize;
-    align-self: start;
-    margin-top: 20px;
-    text-wrap: nowrap;
-    font: 500 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-185 {
-      text-wrap: initial;
-    }
-  }
-  .column-24 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 20%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-24 {
-      width: 100%;
-    }
-  }
-  .div-186 {
-    align-items: flex-start;
-    display: flex;
-    margin-top: 10px;
-    flex-grow: 1;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-186 {
-      margin-top: 40px;
-    }
-  }
-  .div-187 {
-    color: #fff;
-    text-transform: uppercase;
-    align-self: start;
-    text-wrap: nowrap;
-    font: 500 22px Roboto Slab, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-187 {
-      text-wrap: initial;
-    }
-  }
-  .div-188 {
-    color: #c2efd4;
-    text-transform: capitalize;
-    align-self: start;
-    margin-top: 20px;
-    text-wrap: nowrap;
-    font: 500 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-188 {
-      text-wrap: initial;
-    }
-  }
-  .div-189 {
-    color: #c2efd4;
-    text-transform: capitalize;
-    align-self: start;
-    margin-top: 20px;
-    text-wrap: nowrap;
-    font: 500 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-189 {
-      text-wrap: initial;
-    }
-  }
-  .div-190 {
-    color: #c2efd4;
-    text-transform: capitalize;
-    align-self: start;
-    margin-top: 20px;
-    text-wrap: nowrap;
-    font: 500 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-190 {
-      text-wrap: initial;
-    }
-  }
-  .div-191 {
-    color: #c2efd4;
-    text-transform: capitalize;
-    align-self: start;
-    margin-top: 20px;
-    text-wrap: nowrap;
-    font: 500 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-191 {
-      text-wrap: initial;
-    }
-  }
-  .column-25 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: 63%;
-    margin-left: 20px;
-  }
-  @media (max-width: 991px) {
-    .column-25 {
-      width: 100%;
-    }
-  }
-  .div-192 {
-    justify-content: center;
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 991px) {
-    .div-192 {
-      max-width: 100%;
-      margin-top: 40px;
-    }
-  }
-  .div-193 {
-    color: #fff;
-    text-transform: uppercase;
-    align-self: start;
-    text-wrap: nowrap;
-    font: 500 22px Roboto Slab, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-193 {
-      text-wrap: initial;
-    }
-  }
-  .div-194 {
-    color: #fff;
-    align-self: start;
-    text-wrap: nowrap;
-    border-radius: 3px;
-    border: 2px solid #a3f3be;
-    margin-top: 38px;
-    width: 492px;
-    max-width: 100%;
-    padding: 14px 20px;
-    font: 400 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-194 {
-      text-wrap: initial;
-      padding-left: 8px;
-    }
-  }
-  .div-195 {
-    color: #224f34;
-    text-transform: uppercase;
-    align-self: start;
-    text-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    background-color: #a3f3be;
-    margin-top: 38px;
-    width: 115px;
-    max-width: 100%;
-    flex-grow: 1;
-    padding: 13px 20px;
-    font: 500 20px Poppins, sans-serif;
-  }
-  @media (max-width: 991px) {
-    .div-195 {
-      text-wrap: initial;
-      padding: 0 1px;
-    }
-  }
-  .div-196 {
-    align-self: center;
-    display: flex;
-    margin-top: 108px;
+}
+.column-20 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 0px;
+}
+@media (max-width: 991px) {
+  .column-20 {
     width: 100%;
-    max-width: 1375px;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 20px;
   }
-  @media (max-width: 991px) {
-    .div-196 {
-      max-width: 100%;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 40px;
-    }
+}
+.div-180 {
+  align-items: flex-start;
+  border-radius: 3px;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 7px 19px 25px;
+}
+@media (max-width: 991px) {
+  .div-180 {
+    max-width: 100%;
+    margin-top: 39px;
   }
-  .div-197 {
-    background-color: #a3f3be;
-    align-self: center;
-    width: 1051px;
-    height: 2px;
-    margin: auto 0;
+}
+.div-181 {
+  align-items: flex-start;
+  align-self: start;
+  display: flex;
+  width: 145px;
+  max-width: 100%;
+  flex-direction: column;
+}
+.div-182 {
+  color: #224f34;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 400 60px Arial Rounded MT Bold, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .div-182 {
+    font-size: 40px;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-197 {
-      max-width: 100%;
-    }
+}
+.div-183 {
+  color: #224f34;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 600 22px Roboto Serif, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-183 {
+    white-space: initial;
   }
-  .div-198 {
-    color: #fff;
-    text-transform: capitalize;
-    align-self: center;
-    margin: auto 0;
-    font: 600 20px Poppins, sans-serif;
+}
+.div-184 {
+  color: #6f6f6f;
+  margin-top: 26px;
+  font: 500 16px Poppins, sans-serif;
+}
+.column-21 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-21 {
+    width: 100%;
   }
-  .div-199 {
-    color: #fff;
-    text-transform: capitalize;
-    align-self: stretch;
-    font: 600 20px Poppins, sans-serif;
+}
+.div-185 {
+  align-items: flex-start;
+  border-radius: 3px;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  background-color: var(--jrs, #c2efd4);
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 7px 16px 27px;
+}
+@media (max-width: 991px) {
+  .div-185 {
+    max-width: 100%;
+    margin-top: 38px;
   }
-  .div-200 {
-    color: #fff;
-    text-transform: capitalize;
-    align-self: start;
-    text-wrap: nowrap;
-    font: 600 20px Poppins, sans-serif;
+}
+.div-186 {
+  align-items: flex-start;
+  align-self: start;
+  display: flex;
+  width: 188px;
+  max-width: 100%;
+  flex-direction: column;
+}
+.div-187 {
+  color: #224f34;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 400 60px Arial Rounded MT Bold, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .div-187 {
+    font-size: 40px;
+    white-space: initial;
   }
-  @media (max-width: 991px) {
-    .div-200 {
-      text-wrap: initial;
-    }
+}
+.div-188 {
+  color: #224f34;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 600 22px Roboto Serif, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-188 {
+    white-space: initial;
   }
-  </style>
+}
+.div-189 {
+  color: #224f34;
+  margin-top: 26px;
+  font: 500 16px Poppins, sans-serif;
+}
+.column-22 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 33%;
+  margin-left: 20px;
+}
+@media (max-width: 991px) {
+  .column-22 {
+    width: 100%;
+  }
+}
+.div-190 {
+  align-items: flex-start;
+  border-radius: 3px;
+  box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  padding: 7px 19px 50px;
+}
+@media (max-width: 991px) {
+  .div-190 {
+    max-width: 100%;
+    margin-top: 39px;
+  }
+}
+.div-191 {
+  align-items: flex-start;
+  align-self: start;
+  display: flex;
+  width: 168px;
+  max-width: 100%;
+  flex-direction: column;
+}
+.div-192 {
+  color: #224f34;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 400 60px Arial Rounded MT Bold, -apple-system, Roboto, Helvetica,
+    sans-serif;
+}
+@media (max-width: 991px) {
+  .div-192 {
+    font-size: 40px;
+    white-space: initial;
+  }
+}
+.div-193 {
+  color: #224f34;
+  align-self: stretch;
+  white-space: nowrap;
+  font: 600 22px Roboto Serif, sans-serif;
+}
+@media (max-width: 991px) {
+  .div-193 {
+    white-space: initial;
+  }
+}
+.div-194 {
+  color: #6f6f6f;
+  margin-top: 26px;
+  font: 500 16px Poppins, sans-serif;
+}
+.div-195 {
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-top: 91px;
+  width: 131px;
+  max-width: 100%;
+  gap: 20px;
+}
+@media (max-width: 991px) {
+  .div-195 {
+    margin-top: 40px;
+  }
+}
+.div-196 {
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 7px 51px 0px rgba(0, 0, 0, 0.1);
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.img-36 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.div-197 {
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 7px 51px 0px rgba(0, 0, 0, 0.1);
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.img-37 {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  overflow: hidden;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+
+
+</style>
