@@ -48,7 +48,7 @@ SHOP NOW </div>
         <div class="div-23">
           <div class="div-24">
             <div class="column-3">
-              <div class="div-25">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -94,7 +94,7 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-4">
-              <div class="div-32">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/be49f1e4-8afe-4d67-bf57-637c3bf233dc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -126,6 +126,7 @@ SHOP NOW </div>
                 </div>
                 <div class="div-34">
                   <div class="div-35">₱ 110.00</div>
+                  <div class="div-29"></div>
                   <div class="div-36">
                     <div class="div-37">4.9</div>
                     <img
@@ -138,7 +139,7 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-5">
-              <div class="div-38">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6c0b49da-253d-429e-a32c-14e7acdd3dba?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -184,15 +185,9 @@ SHOP NOW </div>
             </div>
           </div>
         </div>
-        <div class="div-45">
-          <div class="div-46">
-            <div class="div-47">See all</div>
-            <img
-              loading="lazy"
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/521cfbb9-a768-4793-a1ab-f06b11c6561e?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-              class="img-10"
-            />
-          </div>
+        <div type="button" class="btnLogin">
+            See all
+          
         </div>
       </div>
     </div>
@@ -200,14 +195,14 @@ SHOP NOW </div>
       <div class="div-49">
         <div class="div-50">Our products</div>
         <div class="div-51">
-          <div class="div-52">Sale</div>
-          <div class="div-53">HOT</div>
-          <div class="div-54">New Arrivals</div>
+          <div class="box">Sale</div>
+          <div type="button" class="box">HOT</div>
+          <div type="button" class="box">New Arrivals</div>
         </div>
         <div class="div-55">
           <div class="div-56">
             <div class="column-6">
-              <div class="div-57">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -231,7 +226,7 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-7">
-              <div class="div-65">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ce4a535c-ec1c-4e8c-bd5f-89c907f0844a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -255,7 +250,7 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-8">
-              <div class="div-73">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f79e3111-dfbd-43b4-ad5a-cb963b72cb40?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -281,14 +276,14 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-9">
-              <div class="div-81">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a7de7baa-cb7d-4486-bdf7-951dfa0dabe2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                   class="img-17"
                 />
                 <div class="div-82">
-                  <div class="div-83">Glutamato with Grapeseed</div>
+                  <div class="div-83">Glutamato with <br>Grapeseed</div>
                   <div class="div-84">
                     <div class="div-85">₱ 80.00</div>
                     <div class="div-86"></div>
@@ -309,7 +304,7 @@ SHOP NOW </div>
         <div class="div-89">
           <div class="div-90">
             <div class="column-10">
-              <div class="div-91">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4163423f-d256-4291-a725-3847674921ce?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -333,14 +328,14 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-11">
-              <div class="div-99">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9baf8aa2-017b-49f2-aa51-44ca858ba8f4?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
                   class="img-21"
                 />
                 <div class="div-100">
-                  <div class="div-101">Glutamansi with Baking Soda</div>
+                  <div class="div-101">Glutamansi <br>with Baking Soda</div>
                   <div class="div-102">
                     <div class="div-103">₱ 80.00</div>
                     <div class="div-104"></div>
@@ -357,7 +352,7 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-12">
-              <div class="div-107">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/bcae492f-e74a-4bcd-ab0b-9b26cb834051?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -381,7 +376,7 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-13">
-              <div class="div-115">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c03e92a5-fc9c-417a-9953-f5a037d60639?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -409,7 +404,7 @@ SHOP NOW </div>
         <div class="div-123">
           <div class="div-124">
             <div class="column-14">
-              <div class="div-125">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a9267242-816f-402f-af17-d47c8c1508d9?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -433,7 +428,7 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-15">
-              <div class="div-133">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/45807f22-fe21-4fd8-9d2c-f9e4ab262a77?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -457,7 +452,7 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-16">
-              <div class="div-141">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7460ec8c-d7d2-4aad-b402-b48ffb2fd280?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -481,7 +476,7 @@ SHOP NOW </div>
               </div>
             </div>
             <div class="column-17">
-              <div class="div-149">
+              <div type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0dd08b9b-d249-40c3-bb75-9c428a2eea27?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -630,6 +625,151 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* */
+.btnLogin {
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  display: flex;
+
+  margin: 40px;
+  width: 10em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  
+  flex-direction: column;
+  margin: auto 50;
+  padding: 10px 27px;
+
+  position: relative;
+  --color: #224f34;
+
+  z-index: 1;
+  color: var(--color);
+
+  text-transform: uppercase;
+  align-self: center;
+  white-space: nowrap;
+  font: 500 20px Poppins, sans-serif;
+
+
+}
+
+.btnLogin::before {
+  position: absolute;
+  content: "";
+  background: var(--color);
+  width: 300px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.btnLogin:hover {
+  color: white;
+}
+
+.btnLogin:before {
+  top: 100%;
+  left: 100%;
+  transition: .3s all;
+}
+
+.btnLogin:hover::before {
+  top: -50px;
+  left: -20px;
+}
+
+
+
+
+
+
+
+
+/* div25 */
+
+.box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+
+
+
+  width: auto;
+  height: auto;
+  float: left;
+  transition: .5s linear;
+  position: relative;
+ 
+  overflow: hidden;
+  padding: 15px;
+  text-align: center;
+ 
+  background: transparent;
+  text-transform: uppercase;
+
+  color: #224f34;
+  text-transform: uppercase;
+  align-self: center;
+  margin: auto 0;
+  font: 500 22px Poppins, sans-serif;
+}
+
+.box:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(100%);
+}
+
+.box:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+  box-sizing: border-box;
+  transform: translateX(-100%);
+}
+
+.box:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.box:hover:before {
+  border-color: #224f34;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .3s;
+}
+
+.box:hover:after {
+  border-color: #224f34;
+  height: 100%;
+  transform: translateX(0);
+  transition: .3s transform linear, .3s height linear .5s;
+}
+
+
+
+
+
+
 
 .div-10 {
   align-items: flex-start;
