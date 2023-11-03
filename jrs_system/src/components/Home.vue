@@ -42,13 +42,14 @@ SHOP NOW </div>
         <div class="div-21">Best selling</div>
         <div class="div-22">
           Discover the extraordinary with our meticulously crafted, organic soap
-           collection designed to pamper your skin and elevate your bathing
+          collection designed to pamper your skin and elevate your bathing
           experience
         </div>
         <div class="div-23">
           <div class="div-24">
             <div class="column-3">
-              <div type="button" class="box">
+            
+                <a href="/order" id="bleachpeel" type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/33e60176-95fa-4f1b-8190-215c6933c180?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -91,7 +92,7 @@ SHOP NOW </div>
                     />
                   </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="column-4">
               <div type="button" class="box">
@@ -152,7 +153,7 @@ SHOP NOW </div>
                         sans-serif;
                       font-weight: 600;
                     "
-                    >Gluta Oatmeal with Shea Butter  and Avocado Oil </span
+                    >Gluta Oatmeal with Shea Butter and Avocado Oil </span
                   ><span
                     style="
                       font-family: Poppins, -apple-system, Roboto, Helvetica,
@@ -202,7 +203,7 @@ SHOP NOW </div>
         <div class="div-55">
           <div class="div-56">
             <div class="column-6">
-              <div type="button" class="box">
+              <a href="/order" id="bleachpeel" type="button" class="box">
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/719e37cf-96a5-4ebe-8c19-c78dbda114d6?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -223,7 +224,7 @@ SHOP NOW </div>
                     </div>
                   </div>
                 </div>
-              </div>
+             </a>
             </div>
             <div class="column-7">
               <div type="button" class="box">
@@ -311,7 +312,7 @@ SHOP NOW </div>
                   class="img-19"
                 />
                 <div class="div-92">
-                  <div class="div-93">Gluta Oatmeal with  Milk & Honey</div>
+                  <div class="div-93">Gluta Oatmeal with Milk & Honey</div>
                   <div class="div-94">
                     <div class="div-95">₱ 100.00</div>
                     <div class="div-96"></div>
