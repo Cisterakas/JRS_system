@@ -5,8 +5,8 @@ import FooterBar from './Footer.vue'
 import { ref } from 'vue';
 
 const counter = ref(1);
-const initialPrice = ref(150);
-const price = 150;
+const initialPrice = ref(110);
+const price = 110;
 
 const increment = () => {
   counter.value++;
@@ -25,7 +25,7 @@ const decrement = () => {
 
 const deleteAll = () => {
   counter.value = 1;
-  initialPrice.value = 150;
+  initialPrice.value = 110;
 };
 
 </script>
@@ -41,33 +41,33 @@ const deleteAll = () => {
             <div class="div-5">
               <div class="column">
                 <div class="div-6">
-                 <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                class="img"
-              />
+                    <img
+      loading="lazy"
+      srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/8b5fde16-f842-48d4-80d1-59e1a4c706ec?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/8b5fde16-f842-48d4-80d1-59e1a4c706ec?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8b5fde16-f842-48d4-80d1-59e1a4c706ec?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/8b5fde16-f842-48d4-80d1-59e1a4c706ec?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/8b5fde16-f842-48d4-80d1-59e1a4c706ec?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/8b5fde16-f842-48d4-80d1-59e1a4c706ec?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/8b5fde16-f842-48d4-80d1-59e1a4c706ec?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/8b5fde16-f842-48d4-80d1-59e1a4c706ec?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+      class="img"
+    />
                   <div class="div-7">
                     <div class="div-8">
                       <div class="column-2">
                         <img
-                          loading="lazy"
-                          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-2"
-                        />
-                      </div>
-                      <div class="column-3">
-                        <img
-                          loading="lazy"
-                          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-3"
-                        />
-                      </div>
-                      <div class="column-4">
-                        <img
-                          loading="lazy"
-                          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-4"
-                        />
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f806a1ea-2ff6-42ce-a071-5d9fec9218df?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f806a1ea-2ff6-42ce-a071-5d9fec9218df?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f806a1ea-2ff6-42ce-a071-5d9fec9218df?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f806a1ea-2ff6-42ce-a071-5d9fec9218df?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f806a1ea-2ff6-42ce-a071-5d9fec9218df?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f806a1ea-2ff6-42ce-a071-5d9fec9218df?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f806a1ea-2ff6-42ce-a071-5d9fec9218df?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f806a1ea-2ff6-42ce-a071-5d9fec9218df?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+            class="img-2"
+          />
+        </div>
+        <div class="column-2">
+          <img
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5bd64380-5ffb-4b63-9809-dbf0044f2bfe?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5bd64380-5ffb-4b63-9809-dbf0044f2bfe?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5bd64380-5ffb-4b63-9809-dbf0044f2bfe?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5bd64380-5ffb-4b63-9809-dbf0044f2bfe?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5bd64380-5ffb-4b63-9809-dbf0044f2bfe?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5bd64380-5ffb-4b63-9809-dbf0044f2bfe?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5bd64380-5ffb-4b63-9809-dbf0044f2bfe?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5bd64380-5ffb-4b63-9809-dbf0044f2bfe?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+            class="img-3"
+          />
+        </div>
+        <div class="column-3">
+          <img
+            loading="lazy"
+            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/b373abf9-a51f-4115-b216-76898de3fa37?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/b373abf9-a51f-4115-b216-76898de3fa37?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b373abf9-a51f-4115-b216-76898de3fa37?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/b373abf9-a51f-4115-b216-76898de3fa37?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/b373abf9-a51f-4115-b216-76898de3fa37?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b373abf9-a51f-4115-b216-76898de3fa37?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/b373abf9-a51f-4115-b216-76898de3fa37?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/b373abf9-a51f-4115-b216-76898de3fa37?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+            class="img-4"
+          />
                       </div>
                     </div>
                   </div>
@@ -77,7 +77,7 @@ const deleteAll = () => {
                 <div class="div-9">
                   <div class="div-10">
                     <div class="div-11">
-                      <div class="div-12">Bleachpeel Soap </div>
+                      <div class="div-12">15 in 1 Soap </div>
                       <div class="div-13">
                         <span
                           style="
@@ -100,7 +100,7 @@ const deleteAll = () => {
                     <div class="div-15">
                       <div class="div-16">₱ {{ initialPrice }}</div>
                       <div class="div-17">
-                        <div class="div-18">5.0</div>
+                        <div class="div-18">4.9</div>
                         <img
                           loading="lazy"
                           src="https://cdn.builder.io/api/v1/image/assets/TEMP/364a08da-7601-4a00-83f1-8cf44330f256?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
@@ -273,12 +273,10 @@ const deleteAll = () => {
               <div class="div-50">
                 <div class="div-51">
                   <div class="div-52">“</div>
-                  <div class="div-53">Emily Wilson</div>
+                  <div class="div-53">Faye Madrany</div>
                 </div>
                 <div class="div-54">
-                  The customer experience was exceptional from start to finish.
-                  The website is user-friendly, the checkout process was smooth,
-                  and the clothes I ordered fit perfectly. I'm beyond satisfied!
+                    After using this 15 in 1 soap, my skin feels like it just had a VIP treatment. It's like a curated experience that caters to all my skin concerns, leaving me feeling pampered and radiant.
                 </div>
               </div>
             </div>
@@ -286,12 +284,10 @@ const deleteAll = () => {
               <div class="div-55">
                 <div class="div-56">
                   <div class="div-57">“</div>
-                  <div class="div-58">Sarah Thompson</div>
+                  <div class="div-58">Hishi Ferrer</div>
                 </div>
                 <div class="div-59">
-                  I absolutely love the quality and style of the clothing I
-                  purchased from this website. customer service was outstanding,
-                  and I received my order quickly. Highly recommended!
+                    I've never felt so understood by a soap before. It's like this 15 in 1 formula has a conversation with my skin, addressing every concern and leaving it feeling loved and cared for.
                 </div>
               </div>
             </div>
@@ -299,11 +295,10 @@ const deleteAll = () => {
               <div class="div-60">
                 <div class="div-61">
                   <div class="div-62">“</div>
-                  <div class="div-63">Olivia Martinez</div>
+                  <div class="div-63">Lor Andanie</div>
                 </div>
                 <div class="div-64">
-                  I had a great experience shopping on this website. The clothes I
-                  bought are fashionable and comfortable. Highly satisfied!
+                    My skin feels like it's on cloud 9 after using this 15 in 1 soap. It's like a symphony of benefits – moisturizing, brightening, and cleansing – all working together to create a harmonious glow.
                 </div>
               </div>
             </div>

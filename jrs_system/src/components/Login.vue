@@ -16,7 +16,8 @@
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
-          <button>Sign Up</button>
+		  <a href="/accntInfo" class="button" type="button">Sign Up</a>
+          <!-- <button>Sign Up</button> -->
         </form>
       </div>
       <div class="form-container sign-in-container">
@@ -31,7 +32,10 @@
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <a href="#">Forgot your password?</a>
-          <button>Sign In</button>
+		  
+          <a href="/accntInfo" class="button" type="button">Sign In</a>
+		  <a href="/accntInfo" class="button" type="button">Sign In As Admin</a>
+		
         </form>
       </div>
       <div class="overlay-container">
@@ -127,7 +131,7 @@ a {
 	margin: 15px 0;
 }
 
-button {
+.button {
 	border-radius: 20px;
 	border: 1px solid #2b9e59;
 	background-color: #2b9e59;
@@ -140,15 +144,15 @@ button {
 	transition: transform 80ms ease-in;
 }
 
-button:active {
+.button:active {
 	transform: scale(0.95);
 }
 
-button:focus {
+.button:focus {
 	outline: none;
 }
 
-button.ghost {
+.button.ghost {
 	background-color: transparent;
 	border-color: #FFFFFF;
 }
