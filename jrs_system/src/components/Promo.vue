@@ -27,105 +27,100 @@ const deleteAll = () => {
   counter.value = 1;
   initialPrice.value = 150;
 };
-
 </script>
 
-
 <template>
-   
+     <NavigationBar />
     <div class="div">
-        <NavigationBar/>
-     
+      <div class="div-2">
         <div class="div-3">
           <div class="div-4">
-            <div class="div-5">
-              <div class="column">
+            <div class="column">
+              <div class="div-5">
+                <img
+                  loading="lazy"
+                  srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                  class="img"
+                />
                 <div class="div-6">
-                 <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/2753ad40-3b82-4874-a2fb-67dc52b71655?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                class="img"
-              />
                   <div class="div-7">
-                    <div class="div-8">
-                      <div class="column-2">
-                        <img
-                          loading="lazy"
-                          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a6a85d68-6d4b-4f29-89ce-b1ef398caa9d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-2"
-                        />
-                      </div>
-                      <div class="column-3">
-                        <img
-                          loading="lazy"
-                          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/52bcb419-d91b-47c2-8f70-f98d8840965d?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-3"
-                        />
-                      </div>
-                      <div class="column-4">
-                        <img
-                          loading="lazy"
-                          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ae695324-ce67-4d26-80be-944f90d0e491?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-4"
-                        />
-                      </div>
+                    <div class="column-2">
+                      <img
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/85ed6cb0-6235-4f01-aa26-4b83b1d2e6b5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/85ed6cb0-6235-4f01-aa26-4b83b1d2e6b5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/85ed6cb0-6235-4f01-aa26-4b83b1d2e6b5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/85ed6cb0-6235-4f01-aa26-4b83b1d2e6b5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/85ed6cb0-6235-4f01-aa26-4b83b1d2e6b5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/85ed6cb0-6235-4f01-aa26-4b83b1d2e6b5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/85ed6cb0-6235-4f01-aa26-4b83b1d2e6b5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/85ed6cb0-6235-4f01-aa26-4b83b1d2e6b5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        class="img-2"
+                      />
+                    </div>
+                    <div class="column-3">
+                      <img
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/de6ba6db-69e4-4ba0-8197-751d8769b854?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/de6ba6db-69e4-4ba0-8197-751d8769b854?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/de6ba6db-69e4-4ba0-8197-751d8769b854?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/de6ba6db-69e4-4ba0-8197-751d8769b854?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/de6ba6db-69e4-4ba0-8197-751d8769b854?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/de6ba6db-69e4-4ba0-8197-751d8769b854?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/de6ba6db-69e4-4ba0-8197-751d8769b854?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/de6ba6db-69e4-4ba0-8197-751d8769b854?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        class="img-3"
+                      />
+                    </div>
+                    <div class="column-4">
+                      <img
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5dea5240-7322-490e-abfa-cb2b6c7ea0ac?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dea5240-7322-490e-abfa-cb2b6c7ea0ac?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dea5240-7322-490e-abfa-cb2b6c7ea0ac?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dea5240-7322-490e-abfa-cb2b6c7ea0ac?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dea5240-7322-490e-abfa-cb2b6c7ea0ac?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dea5240-7322-490e-abfa-cb2b6c7ea0ac?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dea5240-7322-490e-abfa-cb2b6c7ea0ac?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5dea5240-7322-490e-abfa-cb2b6c7ea0ac?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        class="img-4"
+                      />
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="column-5">
+            </div>
+            <div class="column-5">
+              <div class="div-8">
                 <div class="div-9">
-                  <div class="div-10">
-                    <div class="div-11">
-                      <div class="div-12">Bleachpeel Soap </div>
-                      <div class="div-13">
-                        <span
-                          style="
-                            font-family: Poppins, -apple-system, Roboto, Helvetica,
-                              sans-serif;
-                            font-weight: 400;
-                          "
-                          >| </span
-                        ><span
-                          style="
-                            font-family: Poppins, -apple-system, Roboto, Helvetica,
-                              sans-serif;
-                            font-weight: 600;
-                          "
-                        >
-                        </span>
-                      </div>
-                      <div class="div-14">135g</div>
-                    </div>
-                    <div class="div-15">
-                      <div class="div-16">₱ {{ initialPrice }}</div>
-                      <div class="div-17">
-                        <div class="div-18">5.0</div>
-                        <img
-                          loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/364a08da-7601-4a00-83f1-8cf44330f256?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-5"
-                        /><img
-                          loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/ce823299-7c0f-4277-b21f-4759113def1a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-6"
-                        /><img
-                          loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/32afe62d-ece1-4ba9-90a5-4523e824b2be?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-7"
-                        /><img
-                          loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/8874dcff-06af-4665-8c41-706fad6e13f0?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-8"
-                        /><img
-                          loading="lazy"
-                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/cd6a5c9b-1070-49ad-9d5f-fbc15d862d93?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                          class="img-9"
-                        />
-                      </div>
-                    </div>
+                  <div class="div-10">Bleachpeel Soap</div>
+                  <div class="div-11">
+                    <span
+                      style="
+                        font-family: Poppins, -apple-system, Roboto, Helvetica,
+                          sans-serif;
+                        font-weight: 400;
+                      "
+                      >| </span
+                    ><span
+                      style="
+                        font-family: Poppins, -apple-system, Roboto, Helvetica,
+                          sans-serif;
+                        font-weight: 600;
+                      "
+                    >
+                    </span>
                   </div>
-                  <div class="div-19">
+                  <div class="div-12">135g</div>
+                </div>
+                <div class="div-13">
+                  <div class="div-14">₱ {{ initialPrice }}</div>
+                  <div class="div-15">
+                    <div class="div-16">5.0</div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f5930cab-e8e7-4475-b853-d27c5146e41b?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                      class="img-5"
+                    /><img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/3cc0c412-2a4c-4197-b749-e531b9b914fc?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                      class="img-6"
+                    /><img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/f9360cd3-882f-42d0-b292-5c051fe0d839?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                      class="img-7"
+                    /><img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/6ef621cf-9e9e-40da-b18c-6749795a03fe?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                      class="img-8"
+                    /><img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/d21688ad-185c-4548-a0f2-bddb74fafcca?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                      class="img-9"
+                    />
+                  </div>
+                </div>
+                
+                <div class="div-19">
                     <div class="div-21">
                         <div class="div-23">
                             <button class="item__remove" @click="decrement">-</button>
@@ -153,56 +148,76 @@ const deleteAll = () => {
                         
                    
                   </div>
-              
-                  
-                  <div class="div-31">
-                    <div class="div-32">
-                      
-                      <div class="column-6">
-                        <a href="/cart" type="button" class="div-33">
-                          <img
-                            loading="lazy"
-                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/4932dfa6-4cd9-4213-9f5e-355636d2c18a?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
-                            class="img-13"
-                          />
-                          <div class="div-34">Add To Cart</div>
-                        </a>
-                      </div>
-                      <div class="column-7">
-                        <div class="div-35">
-                          <a href="/checkout" type="button" class="div-36">Buy Now</a>
-                          
-                        </div>
+                  <div class="div-14">Price: {{ initialPrice }}</div>
+                <!-- <div class="div-17">
+                  <div class="div-18">Quantity</div>
+                  <div class="div-19">
+                    <div class="div-20">
+                      <div class="div-21">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/14d5f694-b2f3-435f-a5b4-7316857102e2?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                          class="img-10"
+                        />-
                       </div>
                     </div>
+                    <div class="div-23">
+                      <div class="div-24">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/dfbf3679-34d7-4143-b526-a23e4d050734?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                          class="img-11"
+                        />1
+                      </div>
+                    </div>
+                    <div class="div-26">
+                      <img
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/c6e357c1-d3d9-47cd-8124-99921cc62c2f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6e357c1-d3d9-47cd-8124-99921cc62c2f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6e357c1-d3d9-47cd-8124-99921cc62c2f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6e357c1-d3d9-47cd-8124-99921cc62c2f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6e357c1-d3d9-47cd-8124-99921cc62c2f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6e357c1-d3d9-47cd-8124-99921cc62c2f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6e357c1-d3d9-47cd-8124-99921cc62c2f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6e357c1-d3d9-47cd-8124-99921cc62c2f?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                        class="img-12"
+                      />
+                    </div>
+                  </div>
+                </div> -->
+                <div class="div-27">
+                  <div class="div-28">
+                    <div class="column-6">
+                      <div class="div-29">
+                        <img
+                          loading="lazy"
+                          src="https://cdn.builder.io/api/v1/image/assets/TEMP/2bf8917d-7e5c-4cd3-a320-548e3e5f78f5?apiKey=3f6a7ddee9ae46558dc54af7e96aa0c9&"
+                          class="img-13"
+                        />
+                        <div class="div-30">Add To Cart</div>
+                      </div>
+                    </div>
+                    <div class="column-7"><div class="div-31">Buy Now</div></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-     
-      <div class="div-37">
-        <div class="div-38">Direction to Use</div>
-        <div class="div-39">
-          <div class="div-40">
+        <div class="div-32">Direction to Use</div>
+        <div class="div-33">
+          <div class="div-34">
             <div class="column-8">
-              <div class="div-41">
+              <div class="div-35">
                 <span
                   style="
                     font-family: Poppins, -apple-system, Roboto, Helvetica,
                       sans-serif;
                     font-weight: 700;
                   "
-                  >FACE WASHING<br /></span
+                  >FACE WASHING <br /></span
                 ><span
                   style="
                     font-family: Poppins, -apple-system, Roboto, Helvetica,
                       sans-serif;
                     font-weight: 500;
                   "
-                  >☑ Wet the soap and run repeatedly  unto hand to gather a small
-                   amount of lather.<br />☑ Using only the lather, apply 
+                  >☑ Wet the soap and run repeatedly   unto hand to gather a small
+                    amount of lather.<br />☑ Using only the lather, apply  
                   lightly to face and neck in <br />
                   circular motion.<br />☑ DO NOT RUB.<br />☑ Natural exfoliating
                   factor <br />
@@ -213,14 +228,14 @@ const deleteAll = () => {
               </div>
             </div>
             <div class="column-9">
-              <div class="div-42">
+              <div class="div-36">
                 <span
                   style="
                     font-family: Poppins, -apple-system, Roboto, Helvetica,
                       sans-serif;
                     font-weight: 700;
                   "
-                  >BODY WASHING<br /></span
+                  >BODY WASHING <br /></span
                 ><span
                   style="
                     font-family: Poppins, -apple-system, Roboto, Helvetica,
@@ -237,14 +252,14 @@ const deleteAll = () => {
               </div>
             </div>
             <div class="column-10">
-              <div class="div-43">
+              <div class="div-37">
                 <span
                   style="
                     font-family: Poppins, -apple-system, Roboto, Helvetica,
                       sans-serif;
                     font-weight: 700;
                   "
-                  >GIVE YOUR SKIN A BREAK!<br /></span
+                  >GIVE YOUR SKIN A BREAK! <br /></span
                 ><span
                   style="
                     font-family: Poppins, -apple-system, Roboto, Helvetica,
@@ -262,20 +277,16 @@ const deleteAll = () => {
           </div>
         </div>
       </div>
-      
-        <div class="div-45">
-          <div class="div-46">YOU GLOW GIRL!!</div>
-          <div class="div-47">Feedback Corner</div>
-        </div>
-        <div class="div-48">
-          <div class="div-49">
+      <div class="div-38">
+        <div class="div-39">YOU GLOW GIRL!!</div>
+        <div class="div-40">Feedback Corner</div>
+        <div class="div-41">
+          <div class="div-42">
             <div class="column-11">
-              <div class="div-50">
-                <div class="div-51">
-                  <div class="div-52">“</div>
-                  <div class="div-53">Emily Wilson</div>
-                </div>
-                <div class="div-54">
+              <div class="div-43">
+                <div class="div-44">“</div>
+                <div class="div-45">Emily Wilson</div>
+                <div class="div-46">
                   The customer experience was exceptional from start to finish.
                   The website is user-friendly, the checkout process was smooth,
                   and the clothes I ordered fit perfectly. I'm beyond satisfied!
@@ -283,12 +294,10 @@ const deleteAll = () => {
               </div>
             </div>
             <div class="column-12">
-              <div class="div-55">
-                <div class="div-56">
-                  <div class="div-57">“</div>
-                  <div class="div-58">Sarah Thompson</div>
-                </div>
-                <div class="div-59">
+              <div class="div-47">
+                <div class="div-48">“</div>
+                <div class="div-49">Sarah Thompson</div>
+                <div class="div-50">
                   I absolutely love the quality and style of the clothing I
                   purchased from this website. customer service was outstanding,
                   and I received my order quickly. Highly recommended!
@@ -296,12 +305,10 @@ const deleteAll = () => {
               </div>
             </div>
             <div class="column-13">
-              <div class="div-60">
-                <div class="div-61">
-                  <div class="div-62">“</div>
-                  <div class="div-63">Olivia Martinez</div>
-                </div>
-                <div class="div-64">
+              <div class="div-51">
+                <div class="div-52">“</div>
+                <div class="div-53">Olivia Martinez</div>
+                <div class="div-54">
                   I had a great experience shopping on this website. The clothes I
                   bought are fashionable and comfortable. Highly satisfied!
                 </div>
@@ -309,106 +316,53 @@ const deleteAll = () => {
             </div>
           </div>
         </div>
-        <a href="/products" type="button" class="back">BACK</a>
-       
-     
-      <FooterBar/>
+        <div class="div-55">BACK</div>
+      </div>
     </div>
+    <FooterBar/>
   </template>
   
   
   
   <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arial+Rounded+MT+Bold:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&display=swap');
-body {
-  	margin: 0; 
-    line-height: normal;
-}
-.div {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-}
-.back {
-    color: var(--white, #fff);
-    text-transform: capitalize;
-    white-space: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 4px;
-    background-color: #224f34;
-    align-self: start;
-    width: 243px;
-    max-width: 100%;
-    margin: 74px 0 0 10px;
-    padding: 20px;
-    font: 600 16px Poppins, sans-serif;
-    margin-bottom: 40px;
+  .div {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
   }
-  @media (max-width: 991px) {
-    .back {
-      white-space: initial;
-      margin-top: 40px;
-   
-    }
-  }
-
-  .back:hover{
-    background-color: #c2efd4;
-    color: var(--white, #224f34);
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .div-3 {
+  .div-2 {
     background: linear-gradient(
       180deg,
-      #c2efd4 0%,
+      #c4f0d6 3.14%,
       rgba(255, 255, 255, 0) 87.34%
     );
-    align-self: stretch;
     display: flex;
     width: 100%;
     flex-direction: column;
-    padding: 39px 80px 205px;
+    padding: 78px 60px 56px;
   }
   @media (max-width: 991px) {
-    .div-3 {
+    .div-2 {
       max-width: 100%;
-      padding: 0 20px 100px;
+      padding: 0 20px;
     }
   }
-  .div-4 {
+  .div-3 {
     align-self: center;
-    margin-bottom: -41px;
     width: 100%;
     max-width: 1425px;
   }
   @media (max-width: 991px) {
-    .div-4 {
+    .div-3 {
       max-width: 100%;
-      margin-bottom: 10px;
     }
   }
-  .div-5 {
+  .div-4 {
     gap: 20px;
     display: flex;
   }
   @media (max-width: 991px) {
-    .div-5 {
+    .div-4 {
       flex-direction: column;
       align-items: stretch;
       gap: 0px;
@@ -426,14 +380,13 @@ body {
       width: 100%;
     }
   }
-  .div-6 {
-    align-items: flex-start;
+  .div-5 {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
   }
   @media (max-width: 991px) {
-    .div-6 {
+    .div-5 {
       max-width: 100%;
       margin-top: 40px;
     }
@@ -444,28 +397,26 @@ body {
     object-position: center;
     width: 100%;
     overflow: hidden;
-    align-self: stretch;
   }
   @media (max-width: 991px) {
     .img {
       max-width: 100%;
     }
   }
-  .div-7 {
-    align-self: stretch;
+  .div-6 {
     margin-top: 18px;
   }
   @media (max-width: 991px) {
-    .div-7 {
+    .div-6 {
       max-width: 100%;
     }
   }
-  .div-8 {
+  .div-7 {
     gap: 20px;
     display: flex;
   }
   @media (max-width: 991px) {
-    .div-8 {
+    .div-7 {
       flex-direction: column;
       align-items: stretch;
       gap: 0px;
@@ -487,9 +438,9 @@ body {
     aspect-ratio: 0.99;
     object-fit: contain;
     object-position: center;
-    width: 100%;
+    width: 141px;
     overflow: hidden;
-    flex-grow: 1;
+    max-width: 100%;
   }
   @media (max-width: 991px) {
     .img-2 {
@@ -512,9 +463,9 @@ body {
     aspect-ratio: 0.99;
     object-fit: contain;
     object-position: center;
-    width: 100%;
+    width: 141px;
     overflow: hidden;
-    flex-grow: 1;
+    max-width: 100%;
   }
   @media (max-width: 991px) {
     .img-3 {
@@ -537,9 +488,9 @@ body {
     aspect-ratio: 0.99;
     object-fit: contain;
     object-position: center;
-    width: 100%;
+    width: 141px;
     overflow: hidden;
-    flex-grow: 1;
+    max-width: 100%;
   }
   @media (max-width: 991px) {
     .img-4 {
@@ -558,105 +509,89 @@ body {
       width: 100%;
     }
   }
-  .div-9 {
+  .div-8 {
     display: flex;
-    margin-top: 41px;
+    margin-top: 5px;
     flex-direction: column;
   }
   @media (max-width: 991px) {
-    .div-9 {
+    .div-8 {
       max-width: 100%;
       margin-top: 40px;
     }
   }
-  .div-10 {
-    align-items: flex-end;
-    align-content: flex-end;
-    flex-wrap: wrap;
-    align-self: start;
-    display: flex;
-    width: 828px;
-    max-width: 100%;
-    flex-direction: column;
-  }
-  .div-11 {
-    align-items: flex-start;
+  .div-9 {
     align-self: stretch;
     display: flex;
-    width: 100%;
     justify-content: space-between;
     gap: 20px;
   }
   @media (max-width: 991px) {
-    .div-11 {
+    .div-9 {
       max-width: 100%;
       flex-wrap: wrap;
       justify-content: center;
     }
   }
-  .div-12 {
+  .div-10 {
     color: #373737;
     text-align: center;
-    align-self: stretch;
     flex-grow: 1;
     flex-basis: auto;
     font: 600 65px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-12 {
+    .div-10 {
       max-width: 100%;
       font-size: 40px;
     }
   }
-  .div-13 {
+  .div-11 {
     color: #373737;
     text-align: center;
-    align-self: stretch;
     font: 400 65px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-13 {
+    .div-11 {
       font-size: 40px;
     }
   }
-  .div-14 {
+  .div-12 {
     color: #373737;
     text-align: center;
-    align-self: stretch;
     white-space: nowrap;
     font: 600 65px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-14 {
+    .div-12 {
       font-size: 40px;
       white-space: initial;
     }
   }
-  .div-15 {
+  .div-13 {
     align-self: stretch;
     display: flex;
     margin-top: 12px;
     width: 100%;
-    align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
   }
   @media (max-width: 991px) {
-    .div-15 {
+    .div-13 {
       max-width: 100%;
       flex-wrap: wrap;
     }
   }
-  .div-16 {
+  .div-14 {
     color: #454545;
     font: 500 45px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-16 {
+    .div-14 {
       font-size: 40px;
     }
   }
-  .div-17 {
+  .div-15 {
     justify-content: center;
     align-items: flex-start;
     align-self: end;
@@ -664,26 +599,26 @@ body {
     margin-top: 26px;
     gap: 10px;
   }
-  .div-18 {
+  .div-16 {
     color: #454545;
     align-self: stretch;
     font: 500 30px Poppins, sans-serif;
   }
   .img-5 {
-    aspect-ratio: 1.2;
+    aspect-ratio: 1.17;
     object-fit: contain;
     object-position: center;
-    width: 36px;
+    width: 35px;
     overflow: hidden;
     align-self: center;
     max-width: 100%;
     margin: auto 0;
   }
   .img-6 {
-    aspect-ratio: 1.17;
+    aspect-ratio: 1.2;
     object-fit: contain;
     object-position: center;
-    width: 35px;
+    width: 36px;
     fill: #f5d426;
     overflow: hidden;
     align-self: center;
@@ -691,10 +626,10 @@ body {
     margin: auto 0;
   }
   .img-7 {
-    aspect-ratio: 1.2;
+    aspect-ratio: 1.17;
     object-fit: contain;
     object-position: center;
-    width: 36px;
+    width: 35px;
     fill: #f5d426;
     overflow: hidden;
     align-self: center;
@@ -713,80 +648,71 @@ body {
     margin: auto 0;
   }
   .img-9 {
-    aspect-ratio: 1.17;
+    aspect-ratio: 1.2;
     object-fit: contain;
     object-position: center;
-    width: 35px;
+    width: 36px;
     fill: #f5d426;
     overflow: hidden;
     align-self: center;
     max-width: 100%;
     margin: auto 0;
   }
-  .div-19 {
-    align-items: flex-start;
+  .div-17 {
+    align-items: center;
     align-self: start;
     display: flex;
-    margin-top: 20px;
+    margin-top: 81px;
     width: 418px;
     max-width: 100%;
-    margin-bottom: -40px;
+    gap: 16px;
   }
   @media (max-width: 991px) {
-    .div-19 {
+    .div-17 {
       margin-top: 40px;
     }
   }
-  .div-20 {
+  .div-18 {
     color: #454545;
     margin: auto 0;
     font: 500 30px Poppins, sans-serif;
- }
-
-
-
-/*quantity */
-   .div-21 {
-    align-items: flex-start;
+  }
+  .div-19 {
     align-self: stretch;
     display: flex;
-    flex-grow: 1;
-    flex-basis: auto;
     gap: 0px;
   }
   @media (max-width: 991px) {
-    .div-21 {
+    .div-19 {
       justify-content: center;
     }
   }
-  .div-22 {
+  .div-20 {
     justify-content: center;
-    align-items: center;
-    align-self: stretch;
     display: flex;
+    aspect-ratio: 1;
     flex-direction: column;
   }
-  .div-23 {
-    display: flex;
+  .div-21 {
+    disply: flex;
     flex-direction: column;
     color: #454545;
     text-align: center;
-    align-self: stretch;
     position: relative;
     white-space: nowrap;
     fill: #fff;
     stroke-width: 1px;
     stroke: #a6a0a0;
     overflow: hidden;
-    width: 100px;
-    flex-grow: 1;
-    padding: 10px 23px 10px 24px;
+    aspect-ratio: 1;
+    width: 65px;
+    align-items: center;
+    padding: 10px 20px;
     font: 500 30px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-23 {
+    .div-21 {
       white-space: initial;
-      padding: 0 20px;
     }
   }
   .img-10 {
@@ -796,20 +722,19 @@ body {
     object-fit: cover;
     object-position: center;
   }
-  .div-24 {
+  .div-22 {
     position: relative;
   }
-  .div-25 {
-    align-items: flex-start;
-    align-self: stretch;
+  .div-23 {
     display: flex;
+    flex-grow: 1;
+    flex-basis: 0%;
     flex-direction: column;
   }
-  .div-26 {
-    display: flex;
+  .div-24 {
+    disply: flex;
     flex-direction: column;
     color: #454545;
-    align-self: stretch;
     position: relative;
     white-space: nowrap;
     fill: #fff;
@@ -817,14 +742,14 @@ body {
     stroke: #a6a0a0;
     overflow: hidden;
     aspect-ratio: 2.169230769230769;
-    flex-grow: 1;
-    padding: 10px 70px 10px 60px;
+    width: 141px;
+    align-items: center;
+    padding: 10px 20px;
     font: 500 30px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-26 {
+    .div-24 {
       white-space: initial;
-      padding: 0 20px;
     }
   }
   .img-11 {
@@ -834,73 +759,43 @@ body {
     object-fit: cover;
     object-position: center;
   }
-  .div-27 {
+  .div-25 {
     position: relative;
   }
-  .div-28 {
+  .div-26 {
     justify-content: center;
-    align-items: center;
-    align-self: stretch;
     display: flex;
+    aspect-ratio: 1;
     flex-direction: column;
   }
-  .div-29 {
-    display: flex;
-    flex-direction: column;
-    color: #454545;
-    text-align: center;
-    align-self: stretch;
-    position: relative;
-    white-space: nowrap;
+  .img-12 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 65px;
     fill: #fff;
     stroke-width: 1px;
     stroke: #a6a0a0;
     overflow: hidden;
-    width: 100px;
-    flex-grow: 1;
-    padding: 10px 19px 10px 24px;
-    font: 500 30px Poppins, sans-serif;
   }
-  @media (max-width: 991px) {
-    .div-29 {
-      white-space: initial;
-      padding-left: 20px;
-    }
-  }
-  .img-12 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-  .div-30 {
-    position: relative;
-  }
-  
-
-
-
-
-  .div-31 {
-    align-self: start;
+  .div-27 {
+    align-self: stretch;
     margin-top: 80px;
-    width: 828px;
-    max-width: 100%;
     padding-right: 50px;
   }
   @media (max-width: 991px) {
-    .div-31 {
+    .div-27 {
+      max-width: 100%;
       padding-right: 20px;
       margin-top: 40px;
     }
   }
-  .div-32 {
+  .div-28 {
     gap: 20px;
     display: flex;
   }
   @media (max-width: 991px) {
-    .div-32 {
+    .div-28 {
       flex-direction: column;
       align-items: stretch;
       gap: 0px;
@@ -918,46 +813,41 @@ body {
       width: 100%;
     }
   }
-  .div-33 {
-    align-items: flex-start;
+  .div-29 {
     border-radius: 3px;
     border: 1px solid #328b56;
     background-color: #fff;
     display: flex;
-    width: auto;
-    max-width: 375px;
     flex-grow: 1;
+    justify-content: space-between;
     gap: 20px;
+    width: 100%;
     margin: 0 auto;
     padding: 30px 63px;
   }
   @media (max-width: 991px) {
-    .div-33 {
+    .div-29 {
       margin-top: 27px;
       padding: 0 20px;
     }
-  }
-  .div-33:hover{
-    background-color: #f3f3f3;
   }
   .img-13 {
     aspect-ratio: 1.02;
     object-fit: contain;
     object-position: center;
-    width: 40px;
-    fill: #0a8e0a;
-    
-    align-self: start;
+    width: 49px;
+    fill: #328b56;
+    overflow: hidden;
     max-width: 100%;
   }
-  .div-34 {
+  .div-30 {
     color: #328b56;
     align-self: start;
     white-space: nowrap;
     font: 500 30px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-34 {
+    .div-30 {
       white-space: initial;
     }
   }
@@ -973,82 +863,54 @@ body {
       width: 100%;
     }
   }
-  .div-35 {
+  .div-31 {
+    color: #fff;
+    white-space: nowrap;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
     background-color: #328b56;
-    display: flex;
-    width: 100%;
-    max-width: 376px;
     flex-grow: 1;
-    flex-direction: column;
+    width: 100%;
     margin: 0 auto;
-    padding: 30px 80px;
-  }
-  @media (max-width: 991px) {
-    .div-35 {
-      margin-top: 27px;
-      padding: 0 20px;
-    }
-  }
-  .div-36 {
-    color: #fff;
-    align-self: center;
-    white-space: nowrap;
+    padding: 30px 20px;
     font: 500 30px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-36 {
+    .div-31 {
       white-space: initial;
+      margin-top: 27px;
     }
   }
-  .div-35:hover{
-    background-color: #236c40;
-  }
-  .div-37 {
-    align-items: center;
-    align-self: center;
-    display: flex;
-    width: 100%;
-    max-width: 1608px;
-    flex-direction: column;
-    padding: 0 20px;
-  }
-  @media (max-width: 991px) {
-    .div-37 {
-      max-width: 100%;
-    }
-  }
-  .div-38 {
+  .div-32 {
     color: #224f34;
     align-self: center;
+    margin-top: 78px;
     white-space: nowrap;
     font: 500 50px Roboto Slab, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-38 {
-      max-width: 100%;
+    .div-32 {
       font-size: 40px;
+      margin-top: 40px;
       white-space: initial;
     }
   }
-  .div-39 {
+  .div-33 {
     justify-content: center;
-    align-self: stretch;
-    margin: 31px -20px 0 0;
+    margin-top: 31px;
   }
   @media (max-width: 991px) {
-    .div-39 {
+    .div-33 {
       max-width: 100%;
     }
   }
-  .div-40 {
+  .div-34 {
     gap: 20px;
     display: flex;
   }
   @media (max-width: 991px) {
-    .div-40 {
+    .div-34 {
       flex-direction: column;
       align-items: stretch;
       gap: 0px;
@@ -1066,22 +928,21 @@ body {
       width: 100%;
     }
   }
-  .div-41 {
+  .div-35 {
     color: #454545;
-    align-self: stretch;
+    max-width: 454px;
     align-items: center;
     background-color: rgba(223, 251, 234, 0.5);
     flex-grow: 1;
     width: 100%;
     margin: 0 auto;
-    padding: 81px 37px;
+    padding: 81px 20px;
     font: 500 25px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-41 {
+    .div-35 {
       max-width: 100%;
       margin-top: 13px;
-      padding: 0 20px;
     }
   }
   .column-9 {
@@ -1096,22 +957,22 @@ body {
       width: 100%;
     }
   }
-  .div-42 {
+  .div-36 {
     color: #454545;
-    align-self: stretch;
+    max-width: 433px;
     align-items: center;
     background-color: rgba(223, 251, 234, 0.5);
     flex-grow: 1;
     width: 100%;
     margin: 0 auto;
-    padding: 116px 47px 128px;
+    padding: 116px 20px 128px;
     font: 500 25px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-42 {
+    .div-36 {
       max-width: 100%;
       margin-top: 13px;
-      padding: 100px 20px 110px;
+      padding: 100px 0 110px;
     }
   }
   .column-10 {
@@ -1126,96 +987,83 @@ body {
       width: 100%;
     }
   }
-  .div-43 {
+  .div-37 {
     color: #454545;
-    align-self: stretch;
+    max-width: 409px;
     align-items: center;
     background-color: rgba(223, 251, 234, 0.5);
     flex-grow: 1;
     width: 100%;
     margin: 0 auto;
-    padding: 135px 59px 143px;
+    padding: 135px 20px 143px;
     font: 500 25px Poppins, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-43 {
+    .div-37 {
       max-width: 100%;
       margin-top: 13px;
-      padding: 100px 20px 110px;
+      padding: 100px 0 110px;
     }
   }
-  .div-44 {
-    align-items: center;
-    align-self: center;
+  .div-38 {
+    background-color: #fff;
     display: flex;
     width: 100%;
-    max-width: 1370px;
     flex-direction: column;
-    margin: 55px 0 522px;
+    padding: 17px 80px 74px;
   }
   @media (max-width: 991px) {
-    .div-44 {
+    .div-38 {
       max-width: 100%;
-      margin: 40px 0;
+      padding: 0 20px;
     }
   }
-  .div-45 {
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    display: flex;
-    width: 544px;
-    max-width: 100%;
-    flex-direction: column;
-    padding: 0 20px;
-  }
-  .div-46 {
+  .div-39 {
     color: #224f34;
-    align-self: stretch;
-    margin-right: -20px;
+    align-self: center;
     white-space: nowrap;
     font: 700 64px Roboto Slab, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-46 {
+    .div-39 {
       max-width: 100%;
       font-size: 40px;
       white-space: initial;
     }
   }
-  .div-47 {
+  .div-40 {
     color: #224f34;
     align-self: center;
-    margin-top: 67px;
+    margin-top: 79px;
     white-space: nowrap;
     font: 500 50px Roboto Slab, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-47 {
+    .div-40 {
       font-size: 40px;
       margin-top: 40px;
       white-space: initial;
     }
   }
-  .div-48 {
+  .div-41 {
     justify-content: center;
-    align-self: stretch;
-    margin-top: 91px;
-    padding: 0 20px;
-    margin-bottom: 50px;
+    align-self: center;
+    margin-top: 79px;
+    width: 100%;
+    max-width: 1372px;
   }
   @media (max-width: 991px) {
-    .div-48 {
+    .div-41 {
       max-width: 100%;
       margin-top: 40px;
     }
   }
-  .div-49 {
+  .div-42 {
     gap: 20px;
     display: flex;
   }
   @media (max-width: 991px) {
-    .div-49 {
+    .div-42 {
       flex-direction: column;
       align-items: stretch;
       gap: 0px;
@@ -1233,8 +1081,7 @@ body {
       width: 100%;
     }
   }
-  .div-50 {
-    align-items: flex-start;
+  .div-43 {
     border-radius: 3px;
     box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
     background-color: #fff;
@@ -1246,46 +1093,37 @@ body {
     padding: 7px 19px 25px;
   }
   @media (max-width: 991px) {
-    .div-50 {
+    .div-43 {
       max-width: 100%;
-      margin-top: 39px;
+      margin-top: 40px;
     }
   }
-  .div-51 {
-    align-items: flex-start;
-    align-self: start;
-    display: flex;
-    width: 145px;
-    max-width: 100%;
-    flex-direction: column;
-  }
-  .div-52 {
+  .div-44 {
     color: #224f34;
-    align-self: stretch;
+    align-self: start;
     white-space: nowrap;
     font: 400 60px Arial Rounded MT Bold, -apple-system, Roboto, Helvetica,
       sans-serif;
   }
   @media (max-width: 991px) {
-    .div-52 {
+    .div-44 {
       font-size: 40px;
       white-space: initial;
     }
   }
-  .div-53 {
+  .div-45 {
     color: #224f34;
-    align-self: stretch;
+    align-self: start;
     white-space: nowrap;
     font: 600 22px Roboto Serif, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-53 {
+    .div-45 {
       white-space: initial;
     }
   }
-  .div-54 {
+  .div-46 {
     color: #6f6f6f;
-    align-self: start;
     margin-top: 26px;
     font: 500 16px Poppins, sans-serif;
   }
@@ -1301,8 +1139,7 @@ body {
       width: 100%;
     }
   }
-  .div-55 {
-    align-items: flex-start;
+  .div-47 {
     border-radius: 3px;
     box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
     background-color: var(--jrs, #c2efd4);
@@ -1314,46 +1151,37 @@ body {
     padding: 7px 16px 27px;
   }
   @media (max-width: 991px) {
-    .div-55 {
+    .div-47 {
       max-width: 100%;
-      margin-top: 38px;
+      margin-top: 39px;
     }
   }
-  .div-56 {
-    align-items: flex-start;
-    align-self: start;
-    display: flex;
-    width: 188px;
-    max-width: 100%;
-    flex-direction: column;
-  }
-  .div-57 {
+  .div-48 {
     color: #224f34;
-    align-self: stretch;
+    align-self: start;
     white-space: nowrap;
     font: 400 60px Arial Rounded MT Bold, -apple-system, Roboto, Helvetica,
       sans-serif;
   }
   @media (max-width: 991px) {
-    .div-57 {
+    .div-48 {
       font-size: 40px;
       white-space: initial;
     }
   }
-  .div-58 {
+  .div-49 {
     color: #224f34;
-    align-self: stretch;
+    align-self: start;
     white-space: nowrap;
     font: 600 22px Roboto Serif, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-58 {
+    .div-49 {
       white-space: initial;
     }
   }
-  .div-59 {
+  .div-50 {
     color: #224f34;
-    align-self: start;
     margin-top: 26px;
     font: 500 16px Poppins, sans-serif;
   }
@@ -1369,8 +1197,7 @@ body {
       width: 100%;
     }
   }
-  .div-60 {
-    align-items: flex-start;
+  .div-51 {
     border-radius: 3px;
     box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
     background-color: #fff;
@@ -1382,48 +1209,59 @@ body {
     padding: 7px 19px 50px;
   }
   @media (max-width: 991px) {
-    .div-60 {
+    .div-51 {
       max-width: 100%;
-      margin-top: 39px;
+      margin-top: 40px;
     }
   }
-  .div-61 {
-    align-items: flex-start;
-    align-self: start;
-    display: flex;
-    width: 168px;
-    max-width: 100%;
-    flex-direction: column;
-  }
-  .div-62 {
+  .div-52 {
     color: #224f34;
-    align-self: stretch;
+    align-self: start;
     white-space: nowrap;
     font: 400 60px Arial Rounded MT Bold, -apple-system, Roboto, Helvetica,
       sans-serif;
   }
   @media (max-width: 991px) {
-    .div-62 {
+    .div-52 {
       font-size: 40px;
       white-space: initial;
     }
   }
-  .div-63 {
+  .div-53 {
     color: #224f34;
-    align-self: stretch;
+    align-self: start;
     white-space: nowrap;
     font: 600 22px Roboto Serif, sans-serif;
   }
   @media (max-width: 991px) {
-    .div-63 {
+    .div-53 {
       white-space: initial;
     }
   }
-  .div-64 {
+  .div-54 {
     color: #6f6f6f;
-    align-self: start;
     margin-top: 26px;
     font: 500 16px Poppins, sans-serif;
   }
- 
+  .div-55 {
+    color: var(--white, #fff);
+    text-transform: capitalize;
+    white-space: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #224f34;
+    align-self: start;
+    width: 243px;
+    max-width: 100%;
+    margin: 74px 0 0 10px;
+    padding: 20px;
+    font: 600 16px Poppins, sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-55 {
+      white-space: initial;
+      margin-top: 40px;
+    }
+  }
   </style>
