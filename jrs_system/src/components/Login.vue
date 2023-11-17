@@ -34,7 +34,7 @@
           <a href="#">Forgot your password?</a>
 		  
           <a href="/accntInfo" class="button" type="button">Sign In</a>
-		  <a href="/accntInfo" class="button" type="button">Sign In As Admin</a>
+		  <a href="/adminDashboard" class="button" type="button">Sign In As Admin</a>
 		
         </form>
       </div>
