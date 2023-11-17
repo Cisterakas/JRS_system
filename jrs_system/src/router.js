@@ -16,6 +16,7 @@ import ToPay from './components/ToPay.vue';
 import ToShip from './components/ToShip.vue';
 import ToReceive from './components/ToReceive.vue';
 import ToRate from './components/ToRate.vue';
+import AdminDasboard from './components/AdminDashboard.vue';
 
 const routes = [
     { path: '/', component: Home },
@@ -34,7 +35,8 @@ const routes = [
     { path: '/toPay', component: ToPay },
     { path: '/toShip', component: ToShip},
     { path: '/toReceive', component: ToReceive},   
-    { path: '/toRate', component: ToRate},   
+    { path: '/toRate', component: ToRate},  
+    { path: '/adminDashboard', component: AdminDasboard},  
 ];
 
 const router = createRouter({
